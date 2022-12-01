@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site</title>
+</head>
+<body>
+    <head><!-- ->  cabeçalho -->
+        <nav><!-- -> navegação do site -->
+           <a href="./index.html"><img src="./imagens/logo.png"> </a>
+           <a href="./spaceship.html">The Spaceships</a>|
+           <a href="./hireUs.html">Hire Us</a>
+       </nav>
+   </head>
+   <hr>
+   <section>
+    <h3>Hire Us Now</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p> 
+   </section>
+   <section>
+    <form action="">
+        <div>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">-Email:</label>
+        <input type="email" name="email" id="email"> <br>
+        </div>
+        <br>
+        <div>
+        <label for="spaceship">Spaceship:</label>
+        <select  id="spaceship" name="spaceship">
+        <option value="falcon">Falcon 9</option>
+        <option value="falconHeavy">FalconHeavy</option>
+        </select>
+        <label for="service">Type of Service:</label>
+         <input type="search" id="service" name="service" list="services"><!-- -> list conecta ele com o datalist -->
+        <datalist id="services">
+            <option value="magno"></option>
+            <option value="magno alef"></option>
+            <option value="magno alef barroso"></option>
+        </datalist>
+        <br><br>
+        <div>
+            <input type="submit" value="Send Message">
+        </div>
+    </div>
+    </form>
+</section>
+</body>
+</html>
