@@ -1,0 +1,6 @@
+ /***/   /*-> seleciona todos os  elemento */
+ /*li a*/ /* todos os a que estao dentro do li seletor de descendencia*/
+ /*li > a*/ /* todo a que for filho de li vai receber a formatação*/
+ /*h1 + h4*/ /* seletor de adjascente , todo h4 apos o h1 receberar a formatação*/
+   
+ 

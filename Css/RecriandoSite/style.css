@@ -1,0 +1,17 @@
+h1{
+    font-family: 'Montserrat' ,Arial, Helvetica, sans-serif;
+    /* Quando for fontes importadas , tenho que colocar entre aspas */
+}
+.date{
+    font-family: 'Roboto', Arial;
+    color: #008080;
+}
+.post-content{
+    font-family: Open Sans ,Arial, Helvetica, sans-serif;
+}
+.post{
+    background-color:#fffafa ;
+}
+body{
+    text-align: center;
+}

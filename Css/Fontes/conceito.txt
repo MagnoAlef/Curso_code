@@ -1,0 +1,7 @@
+font family -> font a ser usada no text
+font size -> define tamanho da fonte 
+font weight  ->  peso da fonte  bold -> texto em negrito
+line height -> espaço entre linhas
+text align -> alinhamento de texto 
+text decoration -> decoração de text underline-> barrinha inferior
+

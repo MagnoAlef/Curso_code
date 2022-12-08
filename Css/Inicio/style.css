@@ -1,0 +1,22 @@
+.moon{
+    color: yellow;
+    font-size: 20px;
+}
+#text-green{
+    color: red;
+}
+h1{
+    font-size: 50px;
+     border-color: green; /*essas propriedades trabalham juntos*/
+    border-width: 2px;  /*essas propriedades trabalham juntos*/
+    border-style: solid; /*essas propriedades trabalham juntos */
+    /* posso usar assim para substituir esses tres comandos separados
+    border: 2 px dashed green; */
+}
+body{
+    background-image: url('https://i.superesportes.com.br/lG_JP3UR6bR4A2mivLCyG1d-zAw=/smart/imgsapp.mg.superesportes.com.br/app/noticia_126420360808/2022/09/14/3976194/dia-de-galo-divinopolis-sera-a-primeira-parada-do-atletico-no-interior_1_181922.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* todo elemento de class tem que vim com um . inicial */
+/* todo elemento de id tem que vim com um # inicial */
