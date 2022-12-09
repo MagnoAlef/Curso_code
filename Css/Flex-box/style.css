@@ -5,12 +5,22 @@ box-sizing: border-box;
 }
 .container{
     background-color: darkgray;
-    min-height: 100vh;
+     min-height: 100vh; 
+     display: flex;/* -> direcao padrao em linha */
+     gap: 15px; /* espaço entre container se o flex-direction tiver em coluna usar column-gap*/
+     justify-content:center ; /*alinhamento horizontal*/
+     align-items:center ;/*alinhamento vertical*/
+     flex-wrap: wrap; /*quebra de elementos*/
+
 }
 .item{
     width: 200px;
-    height: 200px;
+    height: 200px; 
     border:2px solid black ;
     background-color: white;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
