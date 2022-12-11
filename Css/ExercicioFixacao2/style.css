@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+.container{
+    background-color: darkgray;
+     min-height: 100vh; 
+     display: grid; /* grid Tenta ocupar os espaços restantes na tela */
+     grid-template-columns:20% 40% 20% 20% ;
+     grid-auto-rows: minmax(210px,auto);
+  
+}
+.item{
+    border:2px solid black ;
+    background-color: white;
+    font-size: 30px;
+}
+
