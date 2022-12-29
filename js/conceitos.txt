@@ -1,0 +1,13 @@
+O que e Js?
+    Criado em 1995, seu nome oficial e ECMAScript e uma linguagem de alto nivel e interpretada,
+    multiparadigma.
+    Principal linguagem de programação usada nos navegadores.
+    Junto com html e css forma as tres principais tecnologias da web.
+Tipos primitivos Js.
+    Number e bigint 
+    string
+    boolean
+    null e underfined
+Objetos e funções.
+    Objeto conjunto de varias informações, permitir armazenar varias valores diferentes
+    Funções executam um procedimento
