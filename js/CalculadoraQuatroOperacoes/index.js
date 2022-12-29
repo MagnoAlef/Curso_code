@@ -1,0 +1,6 @@
+let num1 = window.prompt('Digite um numero:')
+let num2 = window.prompt('Digite outro numero:')
+console.log(parseInt(num1)+parseInt(num2))
+console.log(num1-num2)
+console.log(num1*num2)
+console.log(num1/num2)
