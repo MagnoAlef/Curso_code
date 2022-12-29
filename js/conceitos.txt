@@ -11,3 +11,19 @@ Tipos primitivos Js.
 Objetos e funções.
     Objeto conjunto de varias informações, permitir armazenar varias valores diferentes
     Funções executam um procedimento
+Variaveis.
+    Servem para armazenar os dados para podermos usa-los no nosso codigo
+    Boas praticas, sempre da nomes significativos para variaveis.
+Operadores e expressões
+    Operadores-> Aritmeticos Agrupamento atribuição Encadeamento Incrementar e Decrementar
+    Aritmeticos + , -, * , / ,%
+    Agrupamento()
+    Atribuição = , += , -= ,*= , /= e %= 
+    Encadeamento . utilizado para encadear uma coisa com outra
+    Incrementar ++ 
+    Decrementar --
+Expressões  
+    Nada mais e do que as linhas de codigos.
+Comentarios
+    Linhas de codigo que serao ignoradas pelo interpretador
+    // -> uma linha  /* */ -> varias Linhas    
