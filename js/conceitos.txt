@@ -27,3 +27,11 @@ Expressões
 Comentarios
     Linhas de codigo que serao ignoradas pelo interpretador
     // -> uma linha  /* */ -> varias Linhas    
+Comparação de dados
+    Sempre retornam um resultado boolean
+    Operadores == E ===   != E !==  > >= < <=    
+Operadores logicos
+    E(AND) Ou(OR) Não(NOT)
+    operador E so e verdadeiro se ambas as partes forem verdadeiras &&
+    operador Ou verdadeiro se uma das partes for verdades  ||
+    operador NOT nega a afirmação feita   !
