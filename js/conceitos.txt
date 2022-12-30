@@ -35,3 +35,12 @@ Operadores logicos
     operador E so e verdadeiro se ambas as partes forem verdadeiras &&
     operador Ou verdadeiro se uma das partes for verdades  ||
     operador NOT nega a afirmação feita   !
+Estrutura Condicionais IF e ELSE
+    Permite criar blocos de codigo que vao ser executados somente quando uma determinada operação
+    logica for verdadeira
+    SE condição === true ENTAO faça algo
+    Alem disso pode ser usado com o ELSE para acrescentar um bloco que vai ser executado somente quando essa 
+    mesma operação logica for falsa
+    SE condição === true ENTAO faça uma coisa SENÃO faça outra coisa 
+Operador Ternario 
+    const resultado = condicao ? resultado_verdadeiro : resultado_falso    
