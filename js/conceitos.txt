@@ -44,3 +44,11 @@ Estrutura Condicionais IF e ELSE
     SE condição === true ENTAO faça uma coisa SENÃO faça outra coisa 
 Operador Ternario 
     const resultado = condicao ? resultado_verdadeiro : resultado_falso    
+Switch
+    Permite criar blocos condicionais como o IF, pórem com uma estrutura que avalia uma expressaõ e testa
+    o resultado contra variaos casos , executando os casos correspondentes.
+    Switch Expressão
+     CASO a : faça uma coisa
+     CASO b : faça outra coisa E PARE
+     CASO c : faça mais outra coisa
+     POR PADRÃO : faça algo sempre
