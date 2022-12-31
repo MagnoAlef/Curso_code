@@ -59,5 +59,10 @@ While
     a repetição a qualquer momento.
     Atenção: é importante que sempre exista uma forma de condição se tornar falsa, ou então 
     o bloco ficara se repetinfo para sempre
-    Esquanto condição FAÇA algo varias vezes     
+    Esquanto condição FAÇA algo varias vezes 
+Do While 
+    O do while e muito parecido com o while porem ele garante que o bloco de codigo
+    sera executado ppelo menos uma vez , mesmo que a condição seja falsa
+    No  do while a primeira verificação da condição so acontece depois que o bloco foi executado uma vez
+    FAÇA alguma coisa ENQUANTO condicao   
                       Proxima aula Estrutura de Repetição:While
