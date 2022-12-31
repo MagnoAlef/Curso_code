@@ -52,3 +52,12 @@ Switch
      CASO b : faça outra coisa E PARE
      CASO c : faça mais outra coisa
      POR PADRÃO : faça algo sempre
+While
+    Estrutura de repetição serve para executar um mesmo bloco de codigo varias vezes
+    O while serve para criar um laço de repetição que sera executado enquanto uma determinada condição for verdadeira
+    O while e todas as outras estruturas de repetição que veremos aceitam o break para parar
+    a repetição a qualquer momento.
+    Atenção: é importante que sempre exista uma forma de condição se tornar falsa, ou então 
+    o bloco ficara se repetinfo para sempre
+    Esquanto condição FAÇA algo varias vezes     
+                      Proxima aula Estrutura de Repetição:While
