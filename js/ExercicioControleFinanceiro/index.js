@@ -5,10 +5,8 @@
  * mostrar novamente o menu com a quantidade de dinheiro e as opções. A opção de remover 
  * dinheiro deve fazer o mesmo, porem subtraindo o valor.A opção de sair deve encerrar o programa.
  */
-let dinheiro = prompt('Quanto de dinheiro voce tem em caixa?')
+ let dinheiro = prompt('Quanto de dinheiro voce tem em caixa?')
  let dinheiroBruto = parseInt(dinheiro)
-//opcao = prompt('Deseja continuar esta  operação:[Sim]/[Não]')
-// dinheiroAtual = dinheiroBruto
  let opcao = 'Sim'
 while (opcao === 'Sim'){
     alert(`Voce tem ${dinheiroBruto} reais na conta :`)
