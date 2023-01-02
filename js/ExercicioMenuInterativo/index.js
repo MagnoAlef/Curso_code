@@ -27,4 +27,4 @@ alert('Hamburguer escolhido:')
 }
    alert('Finalizando programa:') 
 
-    
+   // refazer usando do while e switch nas opcoes.
