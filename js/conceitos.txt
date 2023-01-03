@@ -64,5 +64,12 @@ Do While
     O do while e muito parecido com o while porem ele garante que o bloco de codigo
     sera executado ppelo menos uma vez , mesmo que a condição seja falsa
     No  do while a primeira verificação da condição so acontece depois que o bloco foi executado uma vez
-    FAÇA alguma coisa ENQUANTO condicao   
+    FAÇA alguma coisa ENQUANTO condicao 
+For 
+    O for tambem serve para realizar repetições , porem com uma estutura de diferente do while e do do while
+    Ele existe para abreviar o codigo em casos que seguem essa estrutura especifica
+    PARA inicialização ; Condição;Finalização FAÇA alguma coisa
+    Um exemplo comum de uso do for e quando queremos iterar um numero fixo de vezes , como uma vez para cada 
+    letra de uma palavra , ou uma vez para cada item de uma lista.
+    For(inicialização ; condição ; Finalização)  
                       Proxima aula Estrutura de Repetição:For
