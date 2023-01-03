@@ -8,7 +8,7 @@ let tabuada = prompt('digite um numero:')
 numero = ''
 for (let i = 1 ; i <= 4 ; i ++ ){
     num = i * tabuada
-   numero = numero + num +'\n'
+    numero = numero + num +'\n'
     alert(`temos a multiplicação de ${i} x ${tabuada} = ${i*tabuada}`)
 }
 alert(`Temos os numeros\n ${numero}`)
