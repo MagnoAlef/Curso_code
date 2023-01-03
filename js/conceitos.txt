@@ -65,4 +65,4 @@ Do While
     sera executado ppelo menos uma vez , mesmo que a condição seja falsa
     No  do while a primeira verificação da condição so acontece depois que o bloco foi executado uma vez
     FAÇA alguma coisa ENQUANTO condicao   
-                      Proxima aula Estrutura de Repetição:While
+                      Proxima aula Estrutura de Repetição:For
