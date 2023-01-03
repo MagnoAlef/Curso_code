@@ -8,12 +8,12 @@
 let palindromo = prompt('digite um palavra:')
 palavraNormal = ''
 palavraAoContrario = ''
-for (let i = palindromo.length -1 ; i >= 0; i -- ){
+for (let i = palindromo.length -1 ; i >= 0; i-- ){
     plv = palindromo[i]   
     palavraAoContrario = palavraAoContrario + plv
     alert(`${palindromo[i]}`)
 }
-for (let i = 0;  i < palindromo.length; i ++ ){
+for (let i = 0;  i < palindromo.length; i++ ){
     plv = palindromo[i]   
     palavraNormal = palavraNormal + plv
     alert(`${palindromo[i]}`)
