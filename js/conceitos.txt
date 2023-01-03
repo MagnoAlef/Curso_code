@@ -72,4 +72,25 @@ For
     Um exemplo comum de uso do for e quando queremos iterar um numero fixo de vezes , como uma vez para cada 
     letra de uma palavra , ou uma vez para cada item de uma lista.
     For(inicialização ; condição ; Finalização)  
-                      Proxima aula Estrutura de Repetição:For
+Estrutura de dados
+    São um modo particular de armazenar e organizar dados de modo que possam ser usados
+    eficientemente, facilitando sua busca e modificação.
+        Lista ligada
+            Coleção ordenada de valores onde cada elemento aponta para o proximo.
+        Array
+            Coleção de elementos que podem ser identificados por indice.
+        Fila(Queue)
+            Coleção de elementos onde o primeiro elemento a ser retirado deve ser o primeiro elemento adicionado
+            Tambem chamadas de listas FIFO (first-in / first-out, ou primeiro a entrar / primeiro a sair)
+        Pilha(Stack)
+            Coleção de elementos onde o primeiro elemento a ser retirado deve ser o ultimo elemento adicionado
+            Tambem chamadas de listas LIFO(last-in/first-out,ou ultimo a entrar / primeiro a sair)
+        Arvore(Tree)   
+            Conjunto de elementos chamados de nós(ou nodes) organizados em uma estrutura hierarquica
+            (não sequencial) ou seja, podendo esta "abaixo" ou "acima" de outros nós.
+            Pensa em uma arvore genealogica, na estrutura das pastas no seu computador 
+            ou na estrutura de uma pagina HTML.
+        Estruturas de dados no js (e outras linguagens de alto - nivel)
+            Listas(Arrays)
+            Dicionarios(Objetos)
+                      Proxima aula -> 
