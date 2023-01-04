@@ -99,5 +99,5 @@ Array(Vetores)
     Pode armazenar qualquer tipo de dado e ter qualquer tamanho
     Pode ser criado e utilizado atraves de colchetes []
     Possuem funções para varios casos de uso 
-               
-                      Proxima aula -> 
+
+                      Proxima aula -> Exercicio 7: Fila de espera
