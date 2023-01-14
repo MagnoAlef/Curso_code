@@ -8,38 +8,29 @@
  * encerrado ao escolher a opção de sair caso contrario deve voltar ao menu.
  */
 
- let fila = []
+  let fila = [] 
 opcao = ''
-do {
-    let pacientes = ""
-    for (let i = 0; i < fila.length; i++) {
-      pacientes += (i + 1) + "º - " + fila[i] + "\n"
+do{
+ let pacientes = ''
+ for (let i = 0 ; i < fila.length; i++){
+     pacientes = `${pacientes} ${i+1} º -  ${fila[i]} \n`
     }
-    opcao = prompt(
-        "Pacientes:\n" + pacientes +
-        "\nEscolha uma ação:\n1 - Novo paciente\n2 - Consultar paciente\n3 - Sair")
-
-
-
+    opcao = prompt(`Fila de espera\nPacientes:\n${pacientes}  \n[1] para adicionar pacientes \n[2] para consultar e remover o paciente da lista\n[3] para encerrar programa. `)
+console.log('teste',pacientes)
 switch (opcao){
-    case "1":
-        const  novopaciente = prompt('Digite o nome do novo paciente:')
-        fila.push(novopaciente)
+    case '1':
+        novoPaciente = prompt('Digite o nome do novo paciente:')
+        fila.push(novoPaciente)
         break
-        case "2":
-            const pacienteConsultado = fila.unshift() 
-            if (pacienteConsultado) {
-                alert(pacienteConsultado + " foi removido da fila.")
-               
-           } else {
-            alert("Não há pacientes na fila!")
-           }
-           break
-    case "3":
-        alert('encerrrando')    
+    case '2':
+        consultaPaciente  = fila.shift()
+        if(!consultaPaciente){
+            alert('Fila vazia , sem pacientes para serem atentidos:')
+        } else{
+            alert(`${consultaPaciente} Foi removido da fila:`)
+        } 
+        break  
+    case '3':
+        alert('Encerrando....')    
 }
-}
-
-
-while (opcao !== '3');
-
+} while(opcao !== '3')
