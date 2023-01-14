@@ -8,10 +8,11 @@
  * encerrado ao escolher a opção de sair caso contrario deve voltar ao menu.
  */
 
-  let fila = [] 
+let fila = [] 
 opcao = ''
 do{
  let pacientes = ''
+ console.log('testes',pacientes)
  for (let i = 0 ; i < fila.length; i++){
      pacientes = `${pacientes} ${i+1} º -  ${fila[i]} \n`
     }
