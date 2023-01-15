@@ -11,8 +11,9 @@
 let fila = [] 
 opcao = ''
 do{
- let pacientes = ''
- console.log('testes',pacientes)
+    let pacientes = ''
+    console.log('testes',pacientes)
+    console.log('Hello,Word!!!',fila)
  for (let i = 0 ; i < fila.length; i++){
      pacientes = `${pacientes} ${i+1} º -  ${fila[i]} \n`
     }
