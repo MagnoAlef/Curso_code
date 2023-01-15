@@ -99,5 +99,12 @@ Array(Vetores)
     Pode armazenar qualquer tipo de dado e ter qualquer tamanho
     Pode ser criado e utilizado atraves de colchetes []
     Possuem funções para varios casos de uso 
-
+Objetos    
+    E uma estrutura do js para se trabalhar com dicionarios chave-valores
+    O par chave valor em um objeto js e chamado de propriedade
+    Diferente dos arrays seus elemetos não possuem nenhuma sequencial
+    Uma propriedade tambem pode ter string numeros e booleanos como chave
+    Uma propriedade pode armazenar qualquer tipo de dado como valor
+    Pode ser criado atraves de chaves {} -> let objeto = {}
+    Suas propriedades e funções podem ser referenciados por encadeamento com ponto '.' ou colchetes[]
                       Proxima aula -> Exercicio 7: Fila de espera
