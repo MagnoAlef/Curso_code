@@ -9,11 +9,13 @@
 baralho = []
 opcao = ''
 do{
+    console.log('magno',baralho)
+
     opcao = prompt(`O baralho tem ${baralho.length} cartas\n[1] para adicionar cartas\n[2] para puxar carta\n[3 para sair:]`)
-AdicionarCartas = ''
-for(let i = 0 ; i< baralho.length;i++ ){
-AdicionarCartas = `${AdicionarCartas} ${baralho[i]}`
-}
+// AdicionarCartas = ''
+// for(let i = 0 ; i< baralho.length;i++ ){
+// AdicionarCartas = `${AdicionarCartas} ${baralho[i]}`
+// }
 switch(opcao){
     case '1':
     novaCarta = prompt('Digite o nome da nova carta:')    
