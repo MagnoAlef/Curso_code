@@ -116,5 +116,11 @@ Funções
         //Procedimento...
         return saida
     }     
-Metodos           
+Objetos Globais
+    Sao objetos padrão da linguagem js que ficam sempre disponivel para utilizarmos
+    Atenção : não confundir com o objeto de escopo global window do navegador(ou o escopo global de outros ambientes)
+    Alguns exemplos:
+    Podem ser usados para criar e converter valores
+    Possuem propriedades e funcoes uteis e frequentemente necessarias
+
                       Proxima aula -> Exercicio 7: Fila de espera
