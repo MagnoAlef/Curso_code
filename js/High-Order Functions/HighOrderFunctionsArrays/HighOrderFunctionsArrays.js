@@ -61,7 +61,8 @@ return valorAcumulado + personagem.nivel
  console.log(racas)
 //---------------------------------------
 //Sort -> ordenar  Porem alterar o array original
-personagens.sort(function(a , b){
+personagens.sort(function(a , b){ // posso usar um slice para fazer uma copia
+    //Exemplo const personagens.slice().sort()function(a , b){return  a.nivel - b.nivel})
     return  a.nivel - b.nivel // ordem crescente -> decrescente b.nivel - a.nivel
 })
 console.log(personagens)
