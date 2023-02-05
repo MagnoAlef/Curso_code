@@ -65,7 +65,7 @@ function listarVagas() {
     )
   
     if (confirmacao) {
-      vagas.splice(indice, 1)
+      vagas.splice(indice, 1) // splice excluir elementos especificos de um array 0 numero 1 e para excluir um elemento apos o indice
       alert("Vaga excluída.")
     }
   }
