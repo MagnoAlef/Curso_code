@@ -6,7 +6,7 @@
  * -> Criar uma nova vaga
  * -> Visualizar uma vaga
  * -> Inscrever um canditado em uma vaga 
- * -> excluir vaga
+ * -> Excluir vaga
  * -> Sair
  * A opcao de listar as vagas deve mostrar o indice o nome e a quantidade de candidatos inscritos de todas as vagas.
  * A opçao de criar uma nova vaga deve pedir um nome para a vaga, uma descrição e uma data limite e tambem
@@ -21,3 +21,14 @@
  *    Este e o exercicio de revisao do modulo, entao aproveite para utilizar todos os recursos vistos ate agora sempre que 
  * possivel comos os obejtos arrays e funcoes. 
  */
+
+opcao = ''
+listaVagas = ['Manobrista' , 'Mecanico' , 'Marceneiro']
+while(opcao !== '6'){
+    if(listaVagas){
+        opcao = prompt(`Digite a opção desejada para prosseguir:
+        ${listaVagas}
+        \n[1] Para Listar vagas disponiveis\n[2] Para Criar uma nova vaga\n[3] Para Visualizar uma vaga\n[4] Para Inscrever um canditado em uma vaga\n[5] Para Excluir vaga\n[6] Sair   `)
+    }
+   
+}
