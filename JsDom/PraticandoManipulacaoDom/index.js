@@ -22,7 +22,7 @@ function addContact() {
     phoneInput.name = 'phone'
     phoneLi.appendChild(phoneInput)
     ul.appendChild(phoneLi)
-    ul.appendChild(document.createElement('br'))
+    ul.appendChild(document.createElement('br')) //Elemento para pula linha
   
     const addressLi = document.createElement('li')
     addressLi.innerHTML = '<label for="address">Endereço: </label>'
@@ -43,6 +43,6 @@ function addContact() {
     const titles = document.getElementsByTagName('h3')
     const contacts = document.getElementsByTagName('ul')
   
-    contactSection.removeChild(titles[titles.length - 1])
-    contactSection.removeChild(contacts[contacts.length - 1])
+    contactSection.removeChild(titles[titles.length - 1]) //Pegando o ultimo elemento
+    contactSection.removeChild(contacts[contacts.length - 1]) //Pegando o ultimo elemento
   }
