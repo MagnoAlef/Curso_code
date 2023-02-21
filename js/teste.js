@@ -4,7 +4,9 @@ let alunos = [
     {nome: 'maria' , idade : 21}
 ]
 
-let aluno = alunos.find((x)=>{
-    return x.nome === 'joao'
-})
-console.log(aluno)
+let cadidato = []
+alunos.push(cadidato)
+ let teste = 'magno'
+
+  alunos[3].push(teste)
+ console.log(alunos[3][0])
