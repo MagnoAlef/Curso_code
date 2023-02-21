@@ -1,0 +1,11 @@
+    Obtendo Elementos HTML do Dom
+O Dom nos permite ler elementos especificos do documento HTML
+   Obter varios elementos em uma HTMLCollection
+    ->document.getElementsByTagName()
+    ->document.getElementsByClassName()
+   Obter varios elementos em uma NodeList
+    ->document.getElementsByName()
+    ->document.querySelectorAll()
+   Obter um unico elemento
+    ->document.getElementById()
+    ->document.querySelector()
