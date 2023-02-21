@@ -2,3 +2,10 @@
 Sao uma forma dinamica de executar js dentro de uma pagina HTML
 Permite executar o js sem travar o carregamento da pagina como vinhamos utilizando anteriormente
 Sao acionados por ações especificas na pagina (Clicar,passar o mouse, focar , digitar,etc)
+    O que é Dom
+Document Object Model, ou Modelo de Objeto de Documento
+Permite que um documento escrito em uma linguagem de marcação(html,cml,etc)seja acessado pelo js]
+Isso e feito atraves de uma estrutura de arvore de objetos
+Permite que tenhamos acesso direito a pagina html para manipula-la de varias formas
+No navegador podemos acessar o Dom atraves do objeto documento
+    
