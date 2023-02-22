@@ -35,10 +35,13 @@ function addNewPlayer(){
 }
 function removePlayer(){
  const number = document.getElementById('numberToRemove').value
- const removeListPlayer = document.getElementById('player-' + number)
+ console.log(number)
+ const removeListPlayer = document.getElementById('player-' + number) //acessando o id
  const confirmation =  confirm(`Tem certeza que deseja remover o ${removeListPlayer.innerText} ?`)
     if(confirmation){
         removeListPlayer.remove()
+      //outra forma de remover
+        //  document.getElementById('teamList').removeChild(removeListPlayer)
     }
     document.getElementById('numberToRemove').value = ''
 
