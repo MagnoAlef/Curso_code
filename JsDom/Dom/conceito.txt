@@ -1,4 +1,4 @@
-    Obtendo Elementos HTML do Dom
+Obtendo Elementos HTML do Dom
 O Dom nos permite ler elementos especificos do documento HTML
    Obter varios elementos em uma HTMLCollection
     ->document.getElementsByTagName()
