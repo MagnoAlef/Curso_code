@@ -12,3 +12,4 @@ let cadidato = []
 //  alunos[3].push(teste)
   console.log(alunos)
  //console.log(alunos[3][0])
+ //Teste de versao
