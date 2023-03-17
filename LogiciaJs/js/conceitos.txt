@@ -123,4 +123,5 @@ Objetos Globais
     Podem ser usados para criar e converter valores
     Possuem propriedades e funcoes uteis e frequentemente necessarias
 
-                      Proxima aula -> Exercicio 11
+                      Proxima aula -> Exercicio 13
+                      
