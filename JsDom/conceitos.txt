@@ -8,4 +8,4 @@ Permite que um documento escrito em uma linguagem de marcação(html,cml,etc)sej
 Isso e feito atraves de uma estrutura de arvore de objetos
 Permite que tenhamos acesso direito a pagina html para manipula-la de varias formas
 No navegador podemos acessar o Dom atraves do objeto documento
-Proxima aula 7
+Proxima aula 21
