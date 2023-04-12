@@ -1,0 +1,8 @@
+    Tipos de dados
+No js (e em outras linguagens de programação) dados podem ser representados em diferentes formas 
+O que e quais são os tipos primitivos ?
+    Number e bigint
+    string -> Podem ser tratada como uma coleção de caracter
+    boolean
+    null e underfined
+objetos e funcções        

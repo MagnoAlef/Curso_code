@@ -1,0 +1,11 @@
+    O que é Js ?
+linguagem de programação ->
+    Criada em 1995 por Brendan Eich para ser usada pelo Netscape
+    Não confundir com java
+    Seu nome oficial e ECMAScript
+    De alto nivel e interpretada
+    Multiparadigma
+Principal linguagem de programação usada pelos navegadores web
+Junto com HTML  e CSS forma as três principais tecnologias da web
+Tambem pode ser usada fora dos navegadores atraves de runtimes como o Node.Js
+Na minha opinião , uma das melhores linguagens para comecar na programação atualmente    
