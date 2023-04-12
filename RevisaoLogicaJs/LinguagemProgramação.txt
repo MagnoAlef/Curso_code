@@ -1,0 +1,7 @@
+    O que é uma linguagem de programação?
+Conjunto de codigos que contem instrucoes para o computador
+Diferente de linguagem de marcação (como HTML ,XML,YAML,etc) e de linguagem de estilização(como CSS)
+Exemplos -> c c++ java c# PHP Python Ruby JS Go Elixir Dart
+Podem ser de alto nivel ou de baixo nivel -> Alto nivel São mais proximas da linguagem humana -> Baixo nivel mais proximas do nivel do hardware
+Podem ser compiladas ou interpretadas -> compiladas e aquela onde você escreve o codigo e o computador consegue entender ele , 
+interpretadas são a maioria das liguagens modernas.
