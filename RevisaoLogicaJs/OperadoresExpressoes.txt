@@ -1,0 +1,7 @@
+    Operadores e Expressoes
+Operadores-> Aritmeticos Agrupamento() Atribuição Encadeamento Incrementar Decrementar 
+Aritmeticos ->  + - * / %
+Agrupamento()-> ()
+Atribuição-> = += -+ *= /= %=
+Encadeamento -> .
+Incrementar Decrementar-> ++ --  
