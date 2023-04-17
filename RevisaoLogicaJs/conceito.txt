@@ -5,5 +5,5 @@
     Objetos
     Funções
 
-Proximas aulas -> 07 Variaveis
+Proximas aulas -> 12 Recursos nativos do navegaor
 
