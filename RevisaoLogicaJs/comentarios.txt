@@ -1,0 +1,4 @@
+    Comentarios
+Linha de codigo que serão ignoradas pelo interpretador
+Como usar -> Uma linha // Varias linhas /**/
+Para que servem-> Deixar anotações Ajudar a entender o codigo Documentar o codigo    
