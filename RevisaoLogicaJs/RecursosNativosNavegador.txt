@@ -1,0 +1,10 @@
+    Recursos Nativos Navegador
+console.log()
+console.error()
+console.warn()
+window.alert()
+window.prompt()
+window.confirm()
+document -> faz referencia ao html
+
+
