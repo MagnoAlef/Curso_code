@@ -6,7 +6,7 @@ SE condição === true Entao faça uma coisa Senão faça outra coisa
 Sintaxe ->  if(){
 
 }
-if else(){
+else if(){
 
 } else {
 

@@ -5,5 +5,5 @@
     Objetos
     Funções
 
-Proximas aulas -> 15 Comparação de dados
+Proximas aulas -> 24 Estrutura de Repetição -> While
 
