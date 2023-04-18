@@ -1,0 +1,26 @@
+    Estrutura Condicionais : Switch
+Permite criar blocos condicionais como i If, porem com uma estrutura que avalia
+uma expressão e testa o resultado contra varios casos executando os casos correspondentes
+E Possivel definir um caso padrão que sempre e executado
+Tambem e possivel parar a execução apos algum dos casos
+Switch expressão
+Caso a : faça uma coisa
+Caso b : faça outra coisa E pare 
+Caso c : faça mais outra coisa
+POR PADRAO: faça algo sempre
+
+sintaxe:
+
+switch(expressão){
+    caso 'a':
+    //
+    break
+    caso 'b':
+    //
+    break
+    caso 'c':
+    //
+    break
+    default:
+    //
+}
