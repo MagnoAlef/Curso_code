@@ -1,0 +1,11 @@
+    Comparação de dados
+Retornam um resultado booleano(true ou false)
+Operadores ->  == === != !== > <= < <=
+== -> comparação de valores 
+=== -> comparação de valores e tipo
+!= -> diferença de valores
+!== -> diferença de valores e tipo
+> -> maior
+< -> menor
+>= -> maior e igual
+<= -> menor e igual
