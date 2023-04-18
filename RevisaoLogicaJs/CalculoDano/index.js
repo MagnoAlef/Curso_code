@@ -11,3 +11,20 @@
  * defensor e exibir na tela a quantidade de dano e as informações atualizadas de ambos os personagens 
  * 
  */
+const nomePersonagem = prompt('Qual o nome do personagem atacante:')
+const poderAtaque = parseFloat(prompt('Qual o poder de ataque do personagem atacante:'))
+const nomedefensor = prompt('Qual o nome do personagem defensor:')
+let quantidadePontosVida = parseFloat(prompt('Quantos pontos de vida o personagem defensor tem?'))
+const poderDefesa = parseFloat(prompt('Qual o poder de defesa do personagem defensor:'))
+const escudo = prompt('Possui escudo?')
+let danoCausado = ''
+if(poderAtaque > poderDefesa  && escudo === 'nao'){
+    danoCausado = poderAtaque - poderDefesa
+    quantidadePontosVida = quantidadePontosVida - danoCausado
+} else if(poderAtaque > poderDefesa  && escudo ===  'sim'){
+    danoCausado = (poderAtaque - poderDefesa) / 2  
+    quantidadePontosVida = quantidadePontosVida - danoCausado
+}else {
+    danoCausado = 0
+}
+alert(`O atacante ${nomePersonagem} tirou ${danoCausado} pontos de dano do defensor ${nomedefensor}  que agora tem ${quantidadePontosVida} pontos de vida`)
