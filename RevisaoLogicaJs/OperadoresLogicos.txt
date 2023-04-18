@@ -1,0 +1,5 @@
+    Operadores Logicos
+Operadores Logicos E (And) Ou (Or) Não (Not)
+E (And) -> So e verdadeiro se ambas as partes forem verdadeiras Operador &&
+Ou (Or) -> E verdadeiro caso uma das partes seja verdadeira Operador ||    
+Não (Not) -> Nega a Afimarção se for verdadeiro fica falso e for falso fica verdadeiro Operador !
