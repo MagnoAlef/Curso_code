@@ -1,0 +1,14 @@
+    Estruturas Condicionais IF e ELSE
+Permite criar blocos de codigo que vão ser executados somente quando uma determinada operação logica for verdadeira
+Se condição === true Entao faça algo
+Alem disso pode ser usado com o ELSE para acrescentar um bloco que vai ser executado somente quando essa mesma operação logica for falsa
+SE condição === true Entao faça uma coisa Senão faça outra coisa
+Sintaxe ->  if(){
+
+}
+if else(){
+
+} else {
+
+}
+Operador Ternario -> const resultado =  5 === 5 ? 'Verdadeiro' : 'falso'
