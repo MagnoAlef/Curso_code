@@ -5,5 +5,5 @@
     Objetos
     Funções
 
-Proximas aulas -> 12 Recursos nativos do navegaor
+Proximas aulas -> 15 Comparação de dados
 
