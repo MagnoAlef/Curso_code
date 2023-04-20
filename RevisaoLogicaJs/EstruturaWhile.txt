@@ -6,5 +6,15 @@ Atenção:é importante que sempre existar uma forma da condição se tornar fal
 Enquanto condição Faça algo varias vezes
 sintaxe:
 while(condição){
-    
+
 }   
+
+let velocidade = 80
+while(velocidade > 0){
+    alert('O carro esta a ' + velocidade + 'Km/H')
+    alert('Diminuindo 20 Km/H')
+    if(velocidade === 40){
+        break
+    }
+}
+alert('O carro parou')
