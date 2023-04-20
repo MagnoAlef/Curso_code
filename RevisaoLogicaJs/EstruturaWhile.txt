@@ -1,0 +1,10 @@
+    Estrutura de Repetição
+Estrutura de Repetição servem para executar um mesmo bloco de codigo varias vezes.
+O while serve para criar um laço de repetição que sera executado enquanto uma determinada condição for verdadeira.
+O while e todas as outras estruturas de repetição que veremos aceitam o break para parar a repetição a qualquer momento.
+Atenção:é importante que sempre existar uma forma da condição se tornar falsa, ou entao o bloco ficara se repetindo para sempre
+Enquanto condição Faça algo varias vezes
+sintaxe:
+while(condição){
+    
+}   

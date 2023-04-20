@@ -41,5 +41,5 @@ switch(opção){
     alert(resultado)
     break
     default:
-        alert('Finalizando')
+        alert('Opção invalida:')
 }
