@@ -1,0 +1,12 @@
+    Estrutura de Repetição: Do While
+O Do while è muito parecido com o while, porem ele
+garante que o bloco de codigo sera executado pelo
+menos uma vez, mesmo que a condição seja falsa.
+No Do While a primeira verificação da condição so acontece depois que o bloco
+foi executado uma vez.
+Faça alguma coisa Enquanto condição
+Sintaxe:
+Do{
+
+}  while(condição)
+
