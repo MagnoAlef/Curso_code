@@ -10,3 +10,12 @@ Do{
 
 }  while(condição)
 
+/*
+let velocidade = 0
+
+do{
+alert('A velocidade do veiculo é ' + velocidade + 'Km/H')
+velocidade-= 20
+ }while(velocidade > 0) 
+alert('A velocidade final ' + velocidade + 'Km/H')
+*/
