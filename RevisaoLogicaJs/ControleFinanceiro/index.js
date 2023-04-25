@@ -52,7 +52,6 @@ do {
       break
     default:
       alert("Entrada inválida.")
-      break
   }
 } while (opcao !== "3");
  */

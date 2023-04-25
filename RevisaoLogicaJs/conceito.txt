@@ -5,5 +5,5 @@
     Objetos
     Funções
 
-Proximas aulas -> 2 Estrutura de Repetição -> Do While
+Proximas aulas -> 30 Estrutura de Repetição -> For
 
