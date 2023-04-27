@@ -5,3 +5,10 @@
  * do tipo string.Depois o programa deve exibir esses resultados e finalizar.
  * 
  */
+
+let numero = prompt('Digite um numero que deseja saber a tabuada de 1 a 20:')
+let number = ''
+for (let i = 1 ; i <= 20 ;i++ ){
+    number = number + '\n' + i * numero + '-'
+}
+alert(number)
