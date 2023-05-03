@@ -1,0 +1,16 @@
+São um modo particular de armazenar e organizar dados de modo que 
+possam ser usados eficientemente, facilitando sua busca e modificação.
+    Estrutura de dados clássicas->
+Lista Ligada -> coleção ordenada de valores onde cada elemento aponta para o proximo
+Array->Coleção de elementos que podem ser identificados por um indice
+Fila(Queue)->coleção de elementos onde o primeiro elemento a ser retirado deve ser o primeiro elemento adicionado 
+Tambem chamadas de listas FIFO(first-in / first-out, ou primeiro que entrar / primeiro que sair)
+Pilha(Stack)->Coleção de elementos onde o primeiro elemento a ser retirado deve ser o ultimo elemento adicionado
+Tambem chamadas de listas LIFO(last-in/first-out,ou ultimo a entrar/primeiro a sair.)
+Arvore(Tree)->conjunto de elementos chamados de nós (ou nodes) organizados em uma estrutura hierarquica (não sequencial),ou seja,podendo estar 'abaixo' ou 'acima' de outros nós
+Pense em uma arvore genealogica, na estrtura das pastas no seu computador ou na estrutura de uma pagina HTML.
+    Estrutura de dados no js (e outras linguagens de alto-nivel)->
+Listas(Arrays)
+Dicionarios(Objetos)
+
+Valor e Referência

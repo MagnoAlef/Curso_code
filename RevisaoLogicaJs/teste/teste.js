@@ -39,3 +39,16 @@ function map(f,a) {
     }
      ,
       [0, 1, 2, 5, 10]);
+
+  var num1 = 20
+  var num2 = 3
+  var nome = 'Magno'
+  function multiplicar(){
+    return num1*num2
+  }
+  console.log(multiplicar())
+  
+   function nomeTeste(){
+    return nome + num1
+  }
+  console.log(nomeTeste())
