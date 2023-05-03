@@ -1,0 +1,18 @@
+E uma estrutura do js para se trabalhar com todo tipo de listas
+Seus elementos são identificados por um indice inteiro comecando pelo 0
+Pode armazenar qualquer tipo de dado e ter qualquer tamanho
+    Pode ser criado e utilizado atraves de colchetes[] ->
+let array = [] 
+array[0] = 'Ola'
+array[1] = 42    
+    Possuem funções para varios casos de uso ->
+Enfileira e desenfileirar
+Empilhar e desempilhar
+Achar o indice de um valor
+Cortar e concatenar
+Etc
+Exemplos abaixo
+                                                        Const listaCompras = []
+                                                        listaCompras[0] = 'Arroz'
+                                                        listaCompras[1] = 'Feijão'
+                                                        listaCompras[1] = 7
