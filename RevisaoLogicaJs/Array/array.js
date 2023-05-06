@@ -4,14 +4,17 @@ console.log(arr)
 //push
 arr.push("teste")
 console.log(arr)
+
 //Adicionar elementos no inicio do array
 //unshift
 arr.unshift('teste')
+
 //Remover Elementos no final
 //pop
 //Posso pegar o valor atribuindo ele a uma variavel
 //EX-> const ultimoElemento = arr.pop()
 arr.pop()
+
 //Remover Elementos no inicio
 //shift
 arr.shift()  //posso atribuir ele a uma variavel tbm
