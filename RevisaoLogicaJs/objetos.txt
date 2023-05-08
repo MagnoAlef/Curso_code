@@ -1,0 +1,16 @@
+E uma estrutura do js para se trabalhar com dicionarios chave - valor
+O par chave - valor em uma obejto js e chamdo de propriedade ->
+    A chave e como um nome da propriedade
+    O valor e o valor que esta armazenado nessa propriedade (semelhante ao valores armazenados em variaveis)
+Diferente dos arrays, seus elementos não possuem nehuma sequência
+Uma propriedade tambem pode ter strings, numeros e booleanos como chave
+Uma propriedade pode armazenar qualquer tipo de dado como valor
+Pode ser criado atraves de chaves {} -> let obejto = {}
+Suas propriedades e funções podem ser referenciadas por encadeamento com ponto '.' ou cochetes[] ->
+    objeto.prop = 'Olá,Mundo!'
+    objeto.executar()
+    let name = 'prop'
+    objeto[name] = 'Olá,Mundo!'
+    objeto.prop ==== objeto[name]
+    let funcao = 'executar'
+    objeto[funcao]()    
