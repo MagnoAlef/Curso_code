@@ -1,0 +1,9 @@
+É uma estrutura do js que permite declarar um procedimento e executa=lo programaticamente.
+Uma funcao pode ser vista como -> Entrada -> Procedimento -> Saida
+Tanto a entrada quando a saida de uma funcao são opcionais , ou seja uma funcao pode existir sem um deles ou sem ambos.
+As entradas da funcao sao chamadas de parametros , As saidas da funcao sao chamadas de retorno.
+Sintaxe:
+function nomeDaFuncao(entradas){
+    //procedimentos
+    return saida
+}
