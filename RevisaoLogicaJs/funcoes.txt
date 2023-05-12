@@ -7,3 +7,4 @@ function nomeDaFuncao(entradas){
     //procedimentos
     return saida
 }
+Exemplo -> 
