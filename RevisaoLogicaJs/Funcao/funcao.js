@@ -3,15 +3,24 @@ function ola(){
 }
 ola()
 
-function teste(teste){
-   teste.idade = 30
-   teste.teste = 'Magno'
+// function teste(teste){
+//    teste.idade = 30
+//    teste.teste = 'Magno'
+// }
+
+
+// algo = {teste: 'algo' , idade: 26}
+// console.log(algo)
+// teste(algo)
+
+// console.log(algo)
+
+function testando(array){
+    array[0] = 'Marcos'
+
 }
 
+const array = ['magno','juliana','teste']
 
-algo = {teste: 'algo' , idade: 26}
-console.log(algo)
-teste(algo)
-
-console.log(algo)
-
+testando(array)
+console.log(array)
