@@ -5,6 +5,6 @@
     Objetos
     Funções
 
-Proximas aulas -> 46 ->Retorno de função
+Proximas aulas -> 48 -> Calculadora geometrica
 
 
