@@ -1,0 +1,11 @@
+    Metodos
+Funcoes atreladas a Objetos
+let pessoa = {
+    nome: 'magno',
+    idade:26,
+    dizerOla() { //Metodo
+    console.log('Óla,Mundo! Meu nome é' + this.nome ) // this Referencia a propriedade
+    }
+}    
+console.log(pessoa)
+pessoa.dizerOla()
