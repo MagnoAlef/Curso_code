@@ -5,6 +5,6 @@
     Objetos
     Funções
 
-Proximas aulas -> 50 Métodos
+Proximas aulas -> 54 High-Order functions e Arrays - Parte 1
 
 
