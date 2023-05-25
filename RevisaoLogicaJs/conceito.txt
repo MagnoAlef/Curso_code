@@ -5,6 +5,6 @@
     Objetos
     Funções
 
-Proximas aulas -> 54 High-Order functions e Arrays - Parte 1
+Proximas aulas -> 57 Objetos globais
 
 
