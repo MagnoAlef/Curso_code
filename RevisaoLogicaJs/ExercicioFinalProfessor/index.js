@@ -9,16 +9,7 @@ function listarVagas() {
   
     alert(vagasEmTexto)
   }
-  function listarVagas() {
-    const vagasEmTexto = vagas.reduce((textoFinal, vaga, indice) => {
-      textoFinal += indice + ". "
-      textoFinal += vaga.nome
-      textoFinal += " (" + vaga.candidatos.length + " candidatos)\n"
-      return textoFinal
-    }, "")
-  
-    alert(vagasEmTexto)
-  }
+ 
   function novaVaga() {
     const nome = prompt("Informe um nome para a vaga:")
     const descricao = prompt("Informe um descrição para a vaga:")
@@ -31,7 +22,7 @@ function listarVagas() {
   
     if (confirmacao) {
       const novaVaga = { nome, descricao, dataLimite, candidatos: [] }
-      vagas.push(novaVaga)
+      vagas.push(novaVaga)//vagas escopo mais externo
       alert("Vaga criada.")
     }
   }
@@ -73,9 +64,9 @@ function listarVagas() {
       "Tem certeza que deseja excluir a vaga " + indice + "?\n" +
       "Nome: " + vaga.nome + "\nDescrição: " + vaga.descricao + "\nData limite: " + vaga.dataLimite
     )
-  
+
     if (confirmacao) {
-      vagas.splice(indice, 1)
+      vagas.splice(indice, 1)//Excluir elemento especifico
       alert("Vaga excluída.")
     }
   }
