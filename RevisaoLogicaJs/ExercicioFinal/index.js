@@ -37,12 +37,21 @@ vagas = []
     
   
  }
+ 
+function listaVaga(){
+    for (let i = 0; i < vagas.length; i++){
+        alert(` Nome vaga: ${vagas[i].nome} Descrição vaga: ${vagas[i].descricao} Data limite vaga: ${vagas[i].dataLimite} `)
+        console.log('teste',vagas[i])
+    }
+  
+ }
  console.log(vagas)
 while (opcao !== '6'){
     opcao= prompt('[1] Para listar vagas\n[2] Para criar uma nova vaga\n[3] Visualizar uma vaga\n'+
     '[4] Para Increver uma candidato em uma vaga\n[5] Para excluir uma vaga\n[6] Para sair')
     switch(opcao){
         case '1':
+                listaVaga()
             break
             case '2':
                 criarVaga()
