@@ -45,6 +45,16 @@ function listaVaga(){
     }
   
  }
+ 
+ function excluirVaga(){
+       const i = parseFloat(prompt('Qual indice da vaga deseja excluir?'))
+        const confirmacao =  confirm(`Nome vaga: ${vagas[i].nome} Descrição vaga: ${vagas[i].descricao} Data limite vaga: ${vagas[i].dataLimite}`)
+        if(confirmacao){
+         vagas.splice(i,1)
+        }
+
+  
+ }
  console.log(vagas)
 while (opcao !== '6'){
     opcao= prompt('[1] Para listar vagas\n[2] Para criar uma nova vaga\n[3] Visualizar uma vaga\n'+
@@ -62,6 +72,7 @@ while (opcao !== '6'){
             case '4':
             break
             case '5':
+                excluirVaga()
             break
             case '6':
                 alert('Saindo....')
