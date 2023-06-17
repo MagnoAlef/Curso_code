@@ -19,36 +19,51 @@
  * a exclusão da vaga antes de realmente exclui-la.
  * Este é o exercicio de revisão do modulo , entaõ aproveite para utilizar todos os recursos vistos ate agora sempre que 
  * possivel, como os objwtos , arrays e funcões.
- */
+*/
 opcao = ''
 vagas = []
+nomeCandidato = ''
 
  function criarVaga (){
     const nome = prompt('Qual o nome da vaga deseja criar.')
     const descricao = prompt('Qual a descrição da vaga.')
     const dataLimite = prompt('Qual a data limite da vaga dd/mm/aaaa.')
-    const vagaCriado = {nome,descricao,dataLimite}
+    const vagaCriado = {nome,descricao,dataLimite,candidato:[]}
     vagas.push(vagaCriado)
  }
  function visualizarVaga(){
     const indice = parseFloat(prompt('Qual indice da vaga deseja visualizar?'))
     elemento = vagas[indice]
-    alert(`Vaga ${vagas[indice].nome}\nDescrição ${vagas[indice].nome}\ndata limite ${vagas[indice].dataLimite}`)
-    
-  
- }
+    candidatos = elemento.candidato
+
+    console.log(candidatos.length)
+     for(let i = 0 ; i < candidatos.length; i++ ){
+        nomeCandidato += candidatos[i] + '\n'
+    }
+    alert(`Vaga ${elemento.nome}\nDescrição ${elemento.nome}\ndata limite ${elemento.dataLimite}\nCandidato:\n ${nomeCandidato}`)
+  }
  
 function listaVaga(){
+
     for (let i = 0; i < vagas.length; i++){
-        alert(` Nome vaga: ${vagas[i].nome} Descrição vaga: ${vagas[i].descricao} Data limite vaga: ${vagas[i].dataLimite} `)
+        alert(` Nome vaga: ${vagas[i].nome} Descrição vaga: ${vagas[i].descricao} Data limite vaga: ${vagas[i].dataLimite}\nCandidato:\n ${nomeCandidato}  `)
         console.log('teste',vagas[i])
     }
   
  }
+ function InscreverCandidato(){
+    const indice = parseFloat(prompt('Qual indice da vaga deseja inscrever um candidato?'))
+    //elemento = vagas[indice]
+  const confirmacao = confirm(`Vaga ${vagas[indice].nome}\nDescrição ${vagas[indice].nome}\ndata limite ${vagas[indice].dataLimite}`)
+if(confirmacao){
+    const nomeCandidato = prompt('Qual o nome do candidato deseja inscrever na vaga?')
+    vagas[indice].candidato.push(nomeCandidato)
+} 
+}
  
  function excluirVaga(){
        const i = parseFloat(prompt('Qual indice da vaga deseja excluir?'))
-        const confirmacao =  confirm(`Nome vaga: ${vagas[i].nome} Descrição vaga: ${vagas[i].descricao} Data limite vaga: ${vagas[i].dataLimite}`)
+        const confirmacao =  confirm(`Nome vaga: ${vagas[i].nome} Descrição vaga: ${vagas[i].descricao} Data limite vaga: ${vagas[i].dataLimite} candidato: ${nomeCandidato} `)
         if(confirmacao){
          vagas.splice(i,1)
         }
@@ -70,6 +85,7 @@ while (opcao !== '6'){
                 visualizarVaga()
             break
             case '4':
+                InscreverCandidato()
             break
             case '5':
                 excluirVaga()
