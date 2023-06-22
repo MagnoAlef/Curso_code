@@ -24,6 +24,7 @@ function addPlayer() {
     const confirmation = confirm("Remover o jogador " + playerToRemove.innerText + "?")
   
     if (confirmation) {
+    // playerToRemove.remove() Pode ser usado assim tambem
       document.getElementById("team-list").removeChild(playerToRemove)
       document.getElementById("numberToRemove").value = ""
     }

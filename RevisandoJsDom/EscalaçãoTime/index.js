@@ -15,3 +15,31 @@
  * Apos o jogador ser removido o campo de texto dever ser limpo
  * Dica:Lemnrando que e possivel acessar o texto de um input atraves da propriedade value
  */
+
+function addPlayer(){
+    const ul = document.getElementById('team-list')
+
+    const position = document.getElementById('position').value
+    const name = document.getElementById('name').value
+    const number = document.getElementById('number').value
+
+    const li = document.createElement('li')
+    li.innerText = `Posição:${position},Nome:${name},Numero:${number}`
+    li.id = 'player-'+number
+    ul.appendChild(li)
+
+    document.getElementById('position').value = ''
+    document.getElementById('name').value = ''
+    document.getElementById('number').value = ''
+
+    console.log({position,name,number})
+}
+
+function removePlayer(){
+    const remove = document.getElementById('numberToRemove').value
+    const removePlayer = document.getElementById('player-'+remove)
+
+    removePlayer.remove()
+    document.getElementById('numberToRemove').value = ''
+
+}
