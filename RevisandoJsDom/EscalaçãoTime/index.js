@@ -18,28 +18,25 @@
 
 function addPlayer(){
 const ul = document.getElementById('team-list')
-const position = document.getElementById('position').value 
-const name = document.getElementById('name').value 
+const position = document.getElementById('position').value
+const name = document.getElementById('name').value
 const number = document.getElementById('number').value
-console.log({position,name,number})
 
 const newLi = document.createElement('li')
-newLi.id = 'palyer-'+number
-newLi.innerText = `Posição:${position}\nNome:${name}\nNumber:${number} `
-document.getElementById('position').value  = ''
-document.getElementById('name').value  = ''
-document.getElementById('number').value = ''
+newLi.id = 'player'+number
+newLi.innerText = `Posição:${position} , Nome:${name} , Numero:${number}`
 
 ul.appendChild(newLi)
-
+document.getElementById('position').value = ''
+document.getElementById('name').value = ''
+document.getElementById('number').value = ''
 
 }
 
 function removePlayer(){
- const removePlayer = document.getElementById('numberToRemove').value
- const removes = document.getElementById('palyer-'+removePlayer)
-
- removes.remove()
- document.getElementById('numberToRemove').value = ''
+    const removePlayer = document.getElementById('numberToRemove').value
+    const removes = document.getElementById('player'+removePlayer)
+    removes.remove()
+    document.getElementById('numberToRemove').value = ''
 
 }
