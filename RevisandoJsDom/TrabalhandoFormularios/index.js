@@ -2,10 +2,10 @@
 const form = document.getElementById("orderForm")
 
 form.addEventListener("submit", function (ev) {
-  ev.preventDefault()
+  ev.preventDefault()//Metodo para previnir comportamento padrao da tela dos formularios
 
-  const name = document.querySelector("input[name='name']").value
-  const address = document.querySelector("input[name='address']").value
+  const name = document.querySelector("input[name='name']").value //querySelector usar mesma base do css
+  const address = document.querySelector("input[name='address']").value // input onde o name dele e = address
   const breadType = document.querySelector("select[name='breadType']").value
   const main = document.querySelector("input[name='main']").value
   const observations = document.querySelector("textarea[name='observations']").value
