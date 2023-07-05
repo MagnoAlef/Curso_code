@@ -14,83 +14,55 @@
  * e a pagina deve funcionar sem acionar um recarregamento.
  */
 
-function createLabel(text , htmlFor){
-    const label = document.createElement('label')
-    label.htmlFor = htmlFor
-    label.innerText = text
-    return label
-}
-function creatInput(id,value,name,type = 'text', placeholder = ''){
-    const input = document.createElement('input')
-    input.id = id
-    input.value = value
-    input.type = type
-    input.placeholder = placeholder
-    return input     
-}
+const stackInputs = document.getElementById('stackInputs')
+
 
 const addTechBtn = document.getElementById('addTechBtn')
-const form = document.getElementById('devForm')
-const developers = []
-let inputRows = 0
 
-addTechBtn.addEventListener('click', function(ev){
+addTechBtn.addEventListener('click', function(){
     const stackInputs = document.getElementById('stackInputs')
-
-    const newRow = document.createElement('li')
-    const rowIndex = inputRows
-    inputRows++ 
-    newRow.id = 'inputRow-'+rowIndex
-    newRow.className = 'inputRow'
-
-    const techNameLabel = createLabel('nome', 'techName-'+rowIndex) // Funcao que foi criada acima
-    const techNameInput = creatInput('techName-'+rowIndex,null,'techName')
-
-    const expLabel = createLabel('Experiencia: ')
-    const id1 = 'expRadio-'+rowIndex+'.1'
-    const expRadio1 = creatInput(id1,'0-2anos','techExp-'+rowIndex,'radio')
-    const expLabel1 = createLabel('0-2anos',id1)
-    const id2 = 'expRadio-'+rowIndex+'.2'
-    const expRadio2 = creatInput(id2,'3-4anos','techExp-'+rowIndex,'radio')
-    const expLabel2 = createLabel('3-4anos',id2)
-    const id3 = 'expRadio-'+rowIndex+'.3'
-    const expRadio3 = creatInput(id3,'5+anos','techExp-'+rowIndex,'radio')
-    const expLabel3 = createLabel('5+anos',id3)
-
-    //Remover
-
-    const removeRowBtn = document.createElement('button')
-    removeRowBtn.type = 'button'
-    removeRowBtn.innerText = 'Remover'
-    removeRowBtn.addEventListener('click' , function(){
-        stackInputs.removeChild(newRow)
-    })
+    const newLi = document.createElement('li')
+    newLi.className = 'testando'
    
-    newRow.append( // append -> posso adicionar mais de um elemento
-techNameLabel,techNameInput,expLabel,expRadio1,expLabel1,expRadio2,expLabel2,expRadio3,expLabel3,removeRowBtn
-   )
+    const newLabelNome = document.createElement('label')
+    newLabelNome.htmlFor = 'teste'
+    newLabelNome.innerText = 'Nome:'
    
-   stackInputs.appendChild(newRow) // adicionou o li dentro da ul
+    const input = document.createElement('input')
+    input.className = 'teste'
+    input.type='text'
+   
+    
+    const newExperiencia = document.createElement('label')
+    newExperiencia.htmlFor = 'testando'
+    newExperiencia.innerText = 'Experiencia:'
 
-})
+    const inputRadio = document.createElement('input')
+    inputRadio.className = 'teste'
+    inputRadio.type= 'radio'
+    inputRadio.value = '0-2'
+    const createLabel = document.createElement('label')
+    createLabel.htmlFor = 'algo'
+    createLabel.innerText = '0-2'
+    
+    const inputRadio1 = document.createElement('input')
+    inputRadio1.className = 'teste1'
+    inputRadio1.type= 'radio'
+    inputRadio.value = '3-4'
+    const createLabel1 = document.createElement('label')
+    createLabel1.htmlFor = 'algo'
+    createLabel1.innerText = '3-4'
+    
+    const inputRadio2 = document.createElement('input')
+    inputRadio2.className = 'teste2'
+    inputRadio2.type= 'radio'
+    inputRadio.value = '5 - +'
+    const createLabel2 = document.createElement('label')
+    createLabel2.htmlFor = 'algo'
+    createLabel2.innerText = '5 - +'
+    
+    newLi.append(newLabelNome,input,newExperiencia,inputRadio,createLabel,inputRadio1,createLabel1 ,inputRadio2,createLabel2)
 
-form.addEventListener('submit' , function(ev){
-    ev.preventDefault()
-    const fullnameInput = document.getElementById('fullname')
-    const inputRows = document.querySelectorAll('.inputRow') // vem do nome da classe criada acima
-let technologies = []
-    inputRows.forEach(function(row){
-       const techName = document.querySelector('#'+row.id+'input[name="techName"]').value
-       const techExp = document.querySelector('#'+row.id+'input[type="radio"]:checked').value
-       technologies.push({name:techName , exp:techExp})
 
-    })
-const newDev = {fullname: fullnameInput.value , technologies:technologies}
-developers.push(newDev)
-alert('Dev cadastrado com sucesso:')
-fullnameInput.value = ''
-inputRows.forEach(function(row){
-    row.remove()
-})
-console.log(developers)
+    stackInputs.appendChild(newLi)
 })
