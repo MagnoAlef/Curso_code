@@ -18,7 +18,7 @@ const devForm = document.getElementById('devForm')
 let inputRow = 0
 const developers = []
 
-function createLabel(text,htmlFor){
+function createLabel(text,htmlFor=''){
     const createLabel = document.createElement('label')
     createLabel.innerText = text
     createLabel.htmlFor = htmlFor
@@ -49,7 +49,23 @@ addTechBtn.addEventListener('click',function(){
     const techNameLabel = createLabel('Nome:','techName'+numberRow ) // criar label 
     const techNameInput = createInput('techName-'+numberRow,'techName' , null) //criar input
 
-    newRow.append(techNameLabel,techNameInput) // adicionar label e input na li
+    const expLabel = createLabel('Experiência:') //Criar o texto que ira fica na frente dos inputs radios
+    const expRadio = createInput('expRadio'+numberRow,'0-2','tech'+numberRow,type='radio') // criar input radio
+    const expRadioLabel = createLabel('0-2','expRadio'+numberRow) //criar a label do radio
+    const expRadio1 = createInput('expRadio'+numberRow,'3-4','tech'+numberRow,type='radio')
+    const expRadioLabel1 = createLabel('3-4','expRadio'+numberRow)
+    const expRadio2 = createInput('expRadio'+numberRow,'5-+','tech'+numberRow,type='radio')
+    const expRadioLabel2 = createLabel('5-+','expRadio'+numberRow)
+
+    const btnRemove = document.createElement('button')
+    btnRemove.innerText = 'remove'
+    btnRemove.type = 'button'
+    btnRemove.addEventListener('click',function(){
+        stackInputs.removeChild(newRow)
+    })
+
+    
+    newRow.append(techNameLabel,techNameInput,expLabel,expRadio,expRadioLabel,expRadio1,expRadioLabel1,expRadio2,expRadioLabel2,btnRemove) // adicionar label e input na li
 
     stackInputs.append(newRow) //adicionar li dentro da ul
 
