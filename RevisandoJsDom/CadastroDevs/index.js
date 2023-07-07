@@ -14,7 +14,9 @@
  * e a pagina deve funcionar sem acionar um recarregamento.
 */
 const addTechBtn = document.getElementById('addTechBtn')
+const devForm = document.getElementById('devForm')
 let inputRow = 0
+const developers = []
 
 function createLabel(text,htmlFor){
     const createLabel = document.createElement('label')
@@ -40,7 +42,7 @@ addTechBtn.addEventListener('click',function(){
 
     const newRow = document.createElement('li') // criar li
     let numberRow = inputRow 
-    numberRow++
+    inputRow++
     newRow.id = 'inputRow'+numberRow // adicionar id diferente a li
     newRow.className = 'inputRow'
      
