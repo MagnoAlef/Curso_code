@@ -50,11 +50,11 @@ addTechBtn.addEventListener('click',function(){
     const techNameInput = createInput('techName-'+numberRow,'techName' , null) //criar input
 
     const expLabel = createLabel('Experiência:') //Criar o texto que ira fica na frente dos inputs radios
-    const expRadio = createInput('expRadio'+numberRow,'0-2','tech'+numberRow,type='radio') // criar input radio
+    const expRadio = createInput('expRadio'+numberRow,'tech'+numberRow,'0-2',type='radio') // criar input radio
     const expRadioLabel = createLabel('0-2','expRadio'+numberRow) //criar a label do radio
-    const expRadio1 = createInput('expRadio'+numberRow,'3-4','tech'+numberRow,type='radio')
+    const expRadio1 = createInput('expRadio'+numberRow,'tech'+numberRow,3-4,type='radio')
     const expRadioLabel1 = createLabel('3-4','expRadio'+numberRow)
-    const expRadio2 = createInput('expRadio'+numberRow,'5-+','tech'+numberRow,type='radio')
+    const expRadio2 = createInput('expRadio'+numberRow,'tech'+numberRow,'5 +',type='radio')
     const expRadioLabel2 = createLabel('5-+','expRadio'+numberRow)
 
     const btnRemove = document.createElement('button')
@@ -73,28 +73,33 @@ addTechBtn.addEventListener('click',function(){
 
 })
 //Estuda mais essa parte
-form.addEventListener('submit', function (ev) {
+devForm.addEventListener('submit', function (ev) {
     ev.preventDefault()
   
-    const fullnameInput = document.getElementById('fullname')
-    const inputRows = document.querySelectorAll('.inputRow')
-  
-    let technologies = []
-    inputRows.forEach(function (row) {
-      // #rowId input[name="techName"]
-      const techName = document.querySelector('#' + row.id + ' input[name="techName"]').value
-      const techExp = document.querySelector('#' + row.id + ' input[type="radio"]:checked').value
-      technologies.push({ name: techName, exp: techExp })
-    })
-  
-    const newDev = { fullname: fullnameInput.value, technologies: technologies }
-    developers.push(newDev)
-    alert('Dev cadastrado com sucesso!')
-  
-    fullnameInput.value = ''
-    inputRows.forEach(function (row) {
-      row.remove()
-    })
-  
-    console.log(developers)
+   const fullname = document.getElementById('fullname') // Pega o nome do dev
+
+   console.log(fullname)
+
+   const inputRow = document.querySelectorAll('.inputRow') // toda minha class da li tem essa classe
+
+   tecnologias = []
+inputRow.forEach(function(row){
+  const techName = document.querySelector('#' + row.id + ' input[name="techName"]').value
+  console.log('teste',techName)
+  const techExp = document.querySelector('#' + row.id + ' input[type="radio"]:checked').value
+  tecnologias.push({name:techName , exp:techExp })
+})
+
+const newDev = {fullname:fullname.value , tecnologias:tecnologias}
+
+developers.push(newDev)
+
+console.log('devs',developers)
+
+fullname.value = ''
+
+inputRow.forEach(function(row){
+  row.remove()
+})
+
   })

@@ -70,6 +70,7 @@ function createLabel(text, htmlFor) {
       const techExp = document.querySelector('#' + row.id + ' input[type="radio"]:checked').value
       technologies.push({ name: techName, exp: techExp })
     })
+    console.log('teste',technologies)
   
     const newDev = { fullname: fullnameInput.value, technologies: technologies }
     developers.push(newDev)
