@@ -1,0 +1,3 @@
+O que é o html5?
+È uma linguagem de marcação criada para estruturação e apresentação de conteudo na web.
+Usa tags para definir conteudo das paginas web.
