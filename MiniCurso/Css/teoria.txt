@@ -2,3 +2,7 @@ O que é o css?
 O css e utilizado para estilizar as telas que deselvolvemos com o html
 possibilitando que elas sejam bonitas e funcionais.
 Esta presente na maioria das paginas web.
+Maneira de adicionar o css ao projeto.
+1.<h1 style = 'color:blue;'>A Blue Heading</h1> Inline
+2.Na <head> criar <style>body {backgroung-color:blue} h1 {color:blue} p {color:red} </style> </head>
+3.Em outro arquivo usando dentro do HEAD o link de direcionamento <link rel ="stylesheet" href="styles.css">

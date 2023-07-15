@@ -5,22 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Start na carreira - Calculadora de Gorjetas</title>
+    <link rel="stylesheet" href='../Css/styles.css'>
   </head>
   <body>
+    <div id="container">
     <div>
-      <h1>Calculadora de gorjetas</h1>
+      <h1 class="title">Calculadora de gorjetas</h1>
     </div>
     <div>
-      <form>
+      <form class="tipsForm">
         <label for="bill">
           <p>Quanto ficou a conta?</p>
         </label>
-        <p>R$<input type="number" name="bill" placeholder="000" id="bill" /></p>
+        <p>R$<input type="number" name="bill" placeholder="000" id="bill" class="formInput" /></p>
         <label for="serviceQualit">
           <p>Como foi o seu serviço?</p>
         </label>
         <p>
-          <select name="serviceQualit" id="serviceQualit">
+          <select name="serviceQualit" id="serviceQualit" class="formselect">
             <option disabled selected value="0">-- Escolha uma opção</option>
             <option value="0.3">30% - Incrivel</option>
             <option value="0.2">20% - Bom</option>
@@ -33,11 +35,12 @@
           <p>Quantas pessoas vão dividir a conta?</p>
         </label>
         <p>
-          <input type="number" placeholder="1" id="people" name="people" />
+          <input type="number" placeholder="1" id="people" name="people" class="formInput" />
           pessoas
         </p>
-        <button type="submit">Calcular</button>
+        <button type="submit" class="formSubmit">Calcular!</button>
       </form>
     </div>
+</div>
   </body>
 </html>
