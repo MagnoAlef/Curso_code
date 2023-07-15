@@ -1,0 +1,4 @@
+O que é o css?
+O css e utilizado para estilizar as telas que deselvolvemos com o html
+possibilitando que elas sejam bonitas e funcionais.
+Esta presente na maioria das paginas web.
