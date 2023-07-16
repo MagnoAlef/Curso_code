@@ -1,0 +1,7 @@
+O que e js?
+Uma linguagem de programação.
+Inicialmente foi desenvolvido para dar instruções para o browser(dizer
+como a paginad deve ser comportar) como por exemplo alterar e injetar elementos
+na tela Exemplo:Mudar a cor e tamanho de um texto, mostrar pop-ups e etc.
+Hoje em dia o js ja e mais poderoso podendo ser usado na criação de APPS mobile 
+e diretamente nos servidores
