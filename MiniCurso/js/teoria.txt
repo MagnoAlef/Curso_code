@@ -1,7 +1,45 @@
-O que e js?
+    O que e js?
 Uma linguagem de programação.
 Inicialmente foi desenvolvido para dar instruções para o browser(dizer
 como a paginad deve ser comportar) como por exemplo alterar e injetar elementos
 na tela Exemplo:Mudar a cor e tamanho de um texto, mostrar pop-ups e etc.
 Hoje em dia o js ja e mais poderoso podendo ser usado na criação de APPS mobile 
 e diretamente nos servidores
+
+    Variaveis
+Onde guardamos valores
+let e var -> variaveis que podem ser mudadas
+const -> variaveis imutaveis não mudam
+
+    Tipos de dados
+Strings ""
+Numeros 12 
+Boolean True False
+Arrays []
+Objetos {}   
+
+    Operadores
+Operador de atribuição = 
+Operador aritmetico + - / * %
+Operador logico & | > >=    
+O IF e a principal condicional.
+
+    Loops
+Os loops sao uma forma de executarmos o mesmo trecho de codigo n vezes
+let i;
+for(i = 0;i< 100;i++){
+    console.log('Hello,Word!!!')
+}    
+
+    Funções
+Uma função serve para agrupar codigos que realizam uma tarefa especifica,
+por exemplo:Capturar os valores digitados pelo usuario e apresentar algum tipo de resultdo com eles.
+function printMessage(message){
+    alert(message)
+}  
+printMessage('Minha primeira função')
+
+    Eventos
+Existem muitos tipos de eventos que podem acontecer em uma pagina.
+Click , passar o mouse , submeter um formulario, entre outros.    
+
