@@ -60,9 +60,9 @@ function handleWin(regions) {
 
 function handleBoardClick(ev) {
   // Obtém os índices da região clicada
-  const span = ev.currentTarget
+  const span = ev.currentTarget // currentTarget a mesma coisa que o span , onde ocorreu o evento 
   const region = span.dataset.region // N.N
-  const rowColumnPair = region.split('.') // ["N", "N"]
+  const rowColumnPair = region.split('.') // ["N", "N"] // split divide o elemento e o tranforma e um array
   const row = rowColumnPair[0]
   const column = rowColumnPair[1]
   // Marca a região clicada com o símbolo do jogador
