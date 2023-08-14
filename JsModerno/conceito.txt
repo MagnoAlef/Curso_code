@@ -22,3 +22,12 @@ Em 2015 , o modelo de atualização do js mudou para anual e suas versões passa
     Es2018
     etc...
 Cada nova versão trouxe novos recursos e conheceremos esses recursos nesse modulo
+    Compatibilidade de Recusos
+Os recursos do js precisam ser implementados pelo navegador e seus interpretadores para que funcionem 
+No entanto, os navegadores podem demorar a implementar os recursos 
+das atualizações do js(ou as vezes nunca implementa-las)
+Isso criar problemas de nem sempre os recursos mais novos do js estarem disponiveis nos navegadores(ex:Internet Explorer)
+Para saber mais sobre as compatibilidades dos recursos temos duas fontes principais
+    Documentação na MDN
+    Can | Use
+Nesse modulo tambem aprenderemos como resolver esse problema de compatibilidade    
