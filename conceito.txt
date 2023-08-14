@@ -1,5 +1,6 @@
                                         Metoria
 1-Aprendendo a aprender programação   
-frontend mentor ->  treinar font   
-codecombat -> treinar logica
-codewell -> treinar logica                              
+    frontend mentor ->  treinar font   
+    codecombat -> treinar logica
+    codewell -> treinar logica      
+                            

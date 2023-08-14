@@ -1,0 +1,10 @@
+O que vamos aprender ?
+Situação do js moderno
+Novos recursos do js
+    Template literals
+    Desestruturação
+    Modulos
+    E mais
+Gerenciamento de pacotes com npm 
+Compilação de js com Babel 
+Empacotamento (bunding)    
