@@ -1,0 +1,46 @@
+    Arrow Functions 
+Uma forma diferente de escrever funções anônimas 
+Não utiliza a palavra function , utiliza => após os parâmetros (por isso arrow , do inglês, seta ou flecha)
+Não possui seus proprios this, arguments,super e new.target
+Tambem  permite retornar diretamente uma expressão , caso seja uma função de uma unica linha  
+EXEMPLO:    
+Const sum = (a,b) => {
+    return a + b
+}   
+const multiply = (a,b) => a * b
+
+    Funcão normal
+
+functions normalSum(a,b){
+    return a + b 
+}
+console.log(`soma normal:${normalSum(2,2)}`)
+
+    Funcão anônima
+
+const anonymousSum = functions(a,b){
+    return a + b 
+}
+console.log(`soma anônima:${anonymousSum(2,2)}`)
+
+    Função arrow function
+
+const arrawSum = (a,b) => {
+    return a + b 
+}
+console.log(`soma arrow function:${arrawSum(2,2)}`)
+
+const arrawSubtract = (a,b) => a + b  // Forma simplificada
+
+console.log(`soma arrow function:${arrawSubtract(5,2)}`)
+
+//caso tenha somente uma parametro nem preciso passar os parenteses
+const double = n => `o dobro de ${n} é ${n*2}`
+const number = 21
+console.log(double(number))
+
+//Usando arrow functions nos metodos
+
+const tows = ['Leme','São paulo','Ponte nova','Pidamonhagaba','Posses','Acaua','Gouveia']
+const towsPrimeiraLetraP = tows.filter(tow=> tow[0] === 'P')
+console.log(towsPrimeiraLetraP)
