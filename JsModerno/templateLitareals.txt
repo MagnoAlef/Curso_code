@@ -1,0 +1,9 @@
+    Template literals 
+Uma forma de de declarar strings
+Utiliza o acento grave(case)
+Permite interpolação de strings e quebra de linha automatica
+EXEMPLO:
+let str = `Essa linha será
+quebrada automaticatimente
+    e essa quebrará e terá um espaço no começo`
+Resultado de uma expressão:`${2+2}`    

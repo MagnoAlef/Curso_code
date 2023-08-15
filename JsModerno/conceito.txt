@@ -31,3 +31,5 @@ Para saber mais sobre as compatibilidades dos recursos temos duas fontes princip
     Documentação na MDN
     Can | Use
 Nesse modulo tambem aprenderemos como resolver esse problema de compatibilidade    
+
+Proxima aula Template literals - 4
