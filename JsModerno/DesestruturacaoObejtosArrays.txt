@@ -1,0 +1,43 @@
+   Desestruturação de Objetos e Arrays 
+funcionalidade que permite criar variaveis a partir de propriedades de um objeto ou elemento de um Arrays
+No caso das propriedades do obejto , as variaveis serão criadas com mesmo nome da propriedade
+No caso dos elementos do array, podemos atribuir qualquer nome para a variavel
+Tambem pode ser utilizada de outras formas , como nos parametros de uma função
+Exemplo:
+const {name,email} = person
+const [x,y] = coordinades
+
+function hello({name}){
+    console.log(`Hello,${name}`)
+}
+    
+    Codigo da aula 
+const person = {
+  name: "Luke",
+  job: "Farmer",
+  parents: ["Anakin", "Padme"]
+}
+
+const name = person.name // forma traducional
+
+const { job, parents } = person // Desestruturação
+
+console.log(name, job, parents)
+
+const [father, mother] = parents // Desestruturação não precisa seguir padrão de nome
+
+console.log(father, mother)
+
+function createUser({ name, job, parents }) { // Poderia passar o persom como parametro porem foi feito com desestruturação
+  const id = Math.floor(Math.random() * 9999) // gerando id aleatorio
+  return {
+    id,
+    name,
+    job,
+    parents
+  }
+}
+
+const luke = createUser(person)
+
+console.log(luke)
