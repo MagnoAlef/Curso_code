@@ -1,0 +1,15 @@
+    Operador de Coalescência Nula
+Operador logico que retorna o seu operando do lado direito
+quando o seu operador do lado esquerdo e null ou underfined.
+Caso contrario ele retorna o seu operando do lado esquerdo.
+Utilizar dois pontos de interrogação "??".
+Vale destacar que ele e diferente do operador logico OU "||" que da
+curto-circuito em expressões falsy(por exemplo , o  numero 0)
+Pode ser usado para operações logicas e tambem para atribuições de valores
+padrão atraves de short-circuit-evaluation ( avaliação de curto-circuito)
+EXEMPLO:
+let a = 0 
+let c = a || 42 // c sera 42
+c = a ?? 42 // c sera 0 , pois 0 e falsy , mas não e nullish
+c = null ?? 42 // c sera 42
+    
