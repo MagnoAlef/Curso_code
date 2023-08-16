@@ -1,0 +1,28 @@
+    Encadeamento opcional
+Operador que permite ler propriedades internas de uma cadeia de objetos sem que a validação de cada referencia da cadeia seja realizada
+Em outras palavras permite acessar propriedades internas sem lançar erros quando uma propriedade e nullish(null ou underfined) 
+Funcionar de forma similar ao encadeamento normal(operador".") , porem e escrito com "?".
+EXEMPLO:   
+const user = {
+  name: "John Doe",
+  email: "doejohn@email.com",
+  friends: [{
+    name: "Mary",
+    address: {
+      street: "Some Street",
+      number: 89
+    }
+  }],
+  age: 42,
+  phone: {
+    countryCode: "+55",
+    ddd: "22",
+    number: "998765432"
+  }
+}
+
+// console.log(user.friends[0].phone.ddd)
+console.log(user.friends[0].phone?.ddd)
+console.log(user?.brothers?.length)
+
+console.log(user.brothers?.[5].name)

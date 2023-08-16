@@ -1,0 +1,7 @@
+    Parametros Rest
+E uma tecnica que permite a uma função receber qualquer numero de parametros 
+Tambem permite manipular esses parametros como um array na definição da função(o que o diferencia do objeto arguments) 
+EXEMPLO:
+function sum(...numbers){
+    return numbers.reduce((accum,num) => accum + num , 0 )
+}  

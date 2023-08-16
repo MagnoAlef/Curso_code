@@ -34,3 +34,10 @@ return{
 }
 const chamadaFuncao = criarUsuarioDesestruct(pessoa)
 console.log(chamadaFuncao)
+
+//Rest parametros
+function sum(...number){ // sempre que usar o rest parametros , ele deve ser o ultimo na lista de parametros
+    return number.reduce((accum,num) => accum + num,0) 
+}
+console.log(sum(1,1))
+console.log(sum(1,1,2,3,4,5))
