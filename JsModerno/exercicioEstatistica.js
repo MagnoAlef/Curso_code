@@ -29,3 +29,17 @@
    Exemplo:(1,1,5,4,7,4,3,5,2,4,0,4) === 4 
    porque o 4 e o numero que mais aparece 
 */
+// Media Aritmetica
+const media = (...number) => {
+    let quantidade = number.length
+return number.reduce((acumuladar,x)=> acumuladar + x ,0) / quantidade
+}
+console.log(media(1,2,3,4))
+console.log(media(1,2,3,4,5,6,7))
+
+const mediaPodenrada = (...number) => {
+    const resultado  = number.reduce((acumulador,x) => acumulador +  x.peso ,0)
+    return number.reduce((acumulador,x) => acumulador + x.valor * x.peso ,0) / resultado
+}
+
+console.log(mediaPodenrada({valor:13 , peso:1},{valor:3 , peso:2},{valor:5 , peso:2}))
