@@ -57,3 +57,26 @@ if(number.length % 2 === 0 ){
 }
 console.log(mediana(1,2,3,4,5,6,7,8,10,11))
 console.log(mediana(11,22,33,4,5,6,7,8,10))
+//Moda Refazer 
+const moda = (...numbers) => {
+    let numCount = {};
+    let mostFrequentNum = '';
+    let maxCount = 0;
+
+    numbers.forEach((x) => {
+        if (numCount[x]) {
+            numCount[x]++;
+        } else {
+            numCount[x] = 1;
+        }
+
+        if (numCount[x] > maxCount) {
+            maxCount = numCount[x];
+            mostFrequentNum = x;
+        }
+    });
+
+    return mostFrequentNum;
+};
+
+console.log(moda( 23,1, 1, 3, 4, 523, 1, 23,23,23, 5));
