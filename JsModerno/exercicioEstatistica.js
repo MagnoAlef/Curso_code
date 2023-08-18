@@ -46,7 +46,7 @@ console.log(mediaPodenrada({valor:13 , peso:1},{valor:3 , peso:2},{valor:5 , pes
 // Mediana
 const mediana = (...number) =>{
     let num = number.length/2
-if(num % 2 === 0 ){
+if(number.length % 2 === 0 ){
     return (number[num-1] + number[num]) / 2
 }else{
     const numInt = parseInt(num)
@@ -55,5 +55,5 @@ if(num % 2 === 0 ){
 
 
 }
-console.log(mediana(1,2,3,4,5,6,7,8))
-console.log(mediana(1,2,3,4,5,6,7,8,9))
+console.log(mediana(1,2,3,4,5,6,7,8,10,11))
+console.log(mediana(11,22,33,4,5,6,7,8,10))
