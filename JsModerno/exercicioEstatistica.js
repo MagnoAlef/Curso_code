@@ -36,10 +36,24 @@ return number.reduce((acumuladar,x)=> acumuladar + x ,0) / quantidade
 }
 console.log(media(1,2,3,4))
 console.log(media(1,2,3,4,5,6,7))
-
+// Media Ponderada
 const mediaPodenrada = (...number) => {
     const resultado  = number.reduce((acumulador,x) => acumulador +  x.peso ,0)
     return number.reduce((acumulador,x) => acumulador + x.valor * x.peso ,0) / resultado
 }
 
 console.log(mediaPodenrada({valor:13 , peso:1},{valor:3 , peso:2},{valor:5 , peso:2}))
+// Mediana
+const mediana = (...number) =>{
+    let num = number.length/2
+if(num % 2 === 0 ){
+    return (number[num-1] + number[num]) / 2
+}else{
+    const numInt = parseInt(num)
+    return number[numInt]
+}
+
+
+}
+console.log(mediana(1,2,3,4,5,6,7,8))
+console.log(mediana(1,2,3,4,5,6,7,8,9))
