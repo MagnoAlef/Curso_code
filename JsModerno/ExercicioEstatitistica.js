@@ -1,4 +1,5 @@
 //Função da Média Simples
+
 const average = (...numbers) => {
     const sum = numbers.reduce((accum, num) => accum + num, 0)
     return sum / numbers.length
@@ -7,6 +8,7 @@ const average = (...numbers) => {
   console.log(`Média Aritmética Simples: ${average(3, 6, 10, 9)}`)
 
   //Função da Média Ponderada
+
   const weightedAverage = (...entries) => {
     const sum = entries.reduce((accum, { number, weight }) => accum + (number * (weight ?? 1)), 0)
     const weightSum = entries.reduce((accum, entry) => accum + (entry.weight ?? 1), 0)
@@ -18,8 +20,11 @@ const average = (...numbers) => {
     { number: 7 },
     { number: 10, weight: 1 },
   )}`)
+
   //Função da Mediana
+  
   const median = (...numbers) => {
+    //sempre tenho que ordenar a sequencia , sendo ela crescente ou decrescente
     const orderedNumbers = [...numbers].sort((a, b) => a - b)
     const middle = Math.floor(orderedNumbers.length / 2)
     if (orderedNumbers.length % 2 !== 0) {
@@ -32,7 +37,9 @@ const average = (...numbers) => {
   
   console.log(`Mediana: ${median(2, 5, 99, 4, 42, 7)}`)
   console.log(`Mediana: ${median(15, 14, 8, 7, 3)}`)
+  
   //Função da Moda
+  
   const mode = (...numbers) => {
     // [ [n, qtd], [n, qtd], [n, qtd] ]
   const quantities = numbers.map(num => [
