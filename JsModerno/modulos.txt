@@ -1,0 +1,21 @@
+    Módulos
+Ja vimos como incluir codigo js diretamente no html
+    .Utilizando a tag script
+    .Todo o conteudo do arquivo e incluido diretamente na pagina simultaneamente
+A medida que os sites evoluiram e as aplicações web começaram a surgir o js foi sendo cada vez mais utilizado.
+Alem disso , o uso do js fora dos navegadores tambem passou a ser nao apenas possivel, como muito popular.
+    .node.js tecnologia que permite interpretar codigo js fora do navegador , foi criado em 2009.
+Isso tudo contribuiu para o amadurecimento do js e a implementação de uma funcionalidade ja existente em outras linguagens : Módulos
+O que são módulos?
+    .Pense em capitulos de um livro ou seções em um supermercado
+    .Autores organizam suas historias em capitulos, supermercados , seus produtos
+    em seções , e bons programadores organizam seu codigo em modulos.
+    .Módulos são agrupamentos de codigos com funcionalidades distintas que podem ser compartilhados ,
+    adicionados ou removidos de nossos software.
+Porque utilizar módulos?
+    .Manutenibilidade
+    .Namespacing
+    .Reusabilidade
+Módulos no js
+    CommonJs
+    ES Modules
