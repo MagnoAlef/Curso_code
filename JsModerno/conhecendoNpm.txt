@@ -1,0 +1,13 @@
+    Conhecendo o npm
+npm, ou node package manager , e um gerenciador de pacotes do Node.js
+Obs: Node.js e a ferramenta que permite executar o js fora do navegador
+Porque o npm existe?
+    Os modulos que ja vimos sao muito uteis para organizar nossas aplicações , mas essa não e sua unica vantagem
+    Com o npm programadores podem compartilhar seus modulos com  outros programadores
+    O npm e um conjunto de ferramentas que permite compartilhar os modulos na internet , baixar modulos 
+    para nosso proprio projeto e gerenciar os modulos instalados no nosso projeto
+    Isso tudo aliado ao poder da comunidade open-source permite aumentar a nossa produtividade(principio DRY,Don´t Repeat yourself)
+O npm tambem pode ser visto como 3 recursos que trablham juntos    
+    1 - Uma ferramenta de linha de comando para executar o npm
+    2 - Um repositorio online de pacotes , onde ficam hospedados os modulos que podemos baixar
+    3 - O site https://npmjs.com onde podemos navegar pelos modulos existentes no repositorio
