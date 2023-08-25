@@ -1,43 +1,23 @@
-const pessoa = {
-    name : 'magno',
-    age : 26,
-    city : ['leme', 'prado']
-}
+const people = [
+    { name: 'Alice', age: 30 },
+    { name: 'Bob', age: 22 },
+    { name: 'Charlie', age: 28 },
+];
 
-const nome = pessoa.name
-const idade = pessoa.age
-const cidade = pessoa.city
-console.log(nome,idade,cidade)
+console.log(people.find((x) => x.age > 25))
 
-//Modelo com desestruturação
+const books = [
+    { title: 'Book 1', pages: 250 },
+    { title: 'Book 2', pages: 320 },
+    { title: 'Book 3', pages: 280 },
+];
 
-const {name,age,city} = pessoa
+console.log(books.find((x) => x.pages > 300))
 
-console.log(name,age,city)
+const numbers = [15, 24, 37, 42, 51, 68, 73];
 
-const criarUsuario = (pessoa) =>{
-return{
-    nome : pessoa.name,
-    idade : pessoa.age,
-    cidade : pessoa.city
-}
-}
-const pessoas = criarUsuario(pessoa)
-console.log(pessoas)
+console.log(numbers.filter((x) => x % 2 === 0))
 
-const criarUsuarioDesestruct = ({name,age,city}) => {
-return{
-    name,
-    age,
-    city
-}
-}
-const chamadaFuncao = criarUsuarioDesestruct(pessoa)
-console.log(chamadaFuncao)
+const words = ['apple', 'banana', 'grape', 'kiwi', 'orange', 'pear'];
 
-//Rest parametros
-function sum(...number){ // sempre que usar o rest parametros , ele deve ser o ultimo na lista de parametros
-    return number.reduce((accum,num) => accum + num,0) 
-}
-console.log(sum(1,1))
-console.log(sum(1,1,2,3,4,5))
+console.log(words.filter((x) => x.length > 5))
