@@ -1,23 +1,19 @@
-const people = [
-    { name: 'Alice', age: 30 },
-    { name: 'Bob', age: 22 },
-    { name: 'Charlie', age: 28 },
-];
+// Função para gerar um objeto de pessoa aleatoriamente
+function criarPessoa() {
+    const nomes = ["Alice", "Bob", "Carol", "David", "Eve"];
+    const idades = [25, 30, 22, 28, 35];
+    const cidades = ["São Paulo", "Rio de Janeiro", "Belo Horizonte", "Curitiba", "Salvador"];
+  
+    const nomeAleatorio = nomes[Math.floor(Math.random() * nomes.length)];
+    const idadeAleatoria = idades[Math.floor(Math.random() * idades.length)];
+    const cidadeAleatoria = cidades[Math.floor(Math.random() * cidades.length)];
+  
+    return { nome: nomeAleatorio, idade: idadeAleatoria, cidade: cidadeAleatoria };
+  }
+  
+  // Gerar um array de 5 objetos de pessoas
+  const pessoas = Array.from({ length: 5 }, criarPessoa);
+  
+  console.log(pessoas);
 
-console.log(people.find((x) => x.age > 25))
-
-const books = [
-    { title: 'Book 1', pages: 250 },
-    { title: 'Book 2', pages: 320 },
-    { title: 'Book 3', pages: 280 },
-];
-
-console.log(books.find((x) => x.pages > 300))
-
-const numbers = [15, 24, 37, 42, 51, 68, 73];
-
-console.log(numbers.filter((x) => x % 2 === 0))
-
-const words = ['apple', 'banana', 'grape', 'kiwi', 'orange', 'pear'];
-
-console.log(words.filter((x) => x.length > 5))
+   pessoas.forEach((x) => console.log('nome e idade das pessoas' , `${x.nome} tem ${x.idade}`))
