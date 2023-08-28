@@ -15,5 +15,8 @@ function criarPessoa() {
   const pessoas = Array.from({ length: 5 }, criarPessoa);
   
   console.log(pessoas);
+  console.log(pessoas.map((x) => x.idade))
+  console.log(pessoas.map((x) => x.nome.toUpperCase))
+  console.log(pessoas.map((x) => `${x.nome}-${x.idade}` ))
 
    pessoas.forEach((x) => console.log('nome e idade das pessoas' , `${x.nome} tem ${x.idade}`))
