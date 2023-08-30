@@ -1,24 +1,8 @@
-const data = {
-  data: [
-    { id: 1, label: 'juliana' },
-    { id: 2, label: 'magno' },
-    { id: 3, label: 'juliana' },
-    { id: 4, label: 'juliana' },
-    { id: 5, label: 'juliana' },
-    { id: 6, label: 'juliana' },
-  ],
-};
 
-const itens = [];
-data.data.forEach((x) => {
-  itens.push({
-    itens: x,
-  });
-});
+const itens = [1,2,3,4,5,56,6,7,8]
+ const teste = itens.reduce((acumulador , x) => acumulador + x , 0)
 
-console.log(itens);
-
-
+ console.log(teste)
 
 
 
