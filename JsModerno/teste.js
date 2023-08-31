@@ -15,6 +15,7 @@ const testes = [
     {id:1 , nome: 'maira',valor: 80},
     ]
 console.log(testes.find((x) => x.nome === 'magno'))
+console.log(testes.filter((x) => x.valor > 30).find((x) => x.nome === 'maiara'))
 
 
 
