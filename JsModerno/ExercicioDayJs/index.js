@@ -14,10 +14,11 @@
 const dayjs = require("dayjs")
 
 function birthday(date) {
-  const birthday = dayjs(date) // se transforma em uma data do dayjs
+  const birthday = dayjs(date) // se transforma em uma data do dayjs //Saida 1995-09-02T03:00:00.000Z,
   const today = dayjs() // pegando o dia de hoje
   const ageInYears = today.diff(birthday, 'year') // diff calcula a diferenca de duas datas // 'year' especificacao de anos
-  const nextBirthday = birthday.add(ageInYears + 1, 'year') // add adicionar // Ele esta pegando a data adicionado a idade que e um valor inteiro nela e somando mais 1 para saber a proxima data de aniversario
+  const nextBirthday = birthday.add(ageInYears + 1, 'year')
+   // add adicionar // Ele esta pegando a data adicionado a idade que e um valor inteiro nela e somando mais 1 para saber a proxima data de aniversario
   const daysToNextBirthday = nextBirthday.diff(today, 'day') + 1
 
   console.log('birthday' , birthday)
