@@ -9,3 +9,9 @@ Alguns recursos do Babel :
     Tranformação de codigo
     E muito mais...
 Mais informações sobre ele disponiveis em https://babeljs.io/
+
+Comando para converter codigo atual para modelo antigo o mesmo criar outro arquivo  
+npx babel usandoBabel.js --out-file dist.js --presets=@babel/preset-env
+
+Comando para converter toda a pasta com o codigo atual para modelo antigo o mesmo criar outra pasta
+npx babel src --out-dir dist --presets=@babel/preset-env
