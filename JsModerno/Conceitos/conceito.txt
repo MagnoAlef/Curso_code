@@ -32,4 +32,4 @@ Para saber mais sobre as compatibilidades dos recursos temos duas fontes princip
     Can | Use
 Nesse modulo tambem aprenderemos como resolver esse problema de compatibilidade    
 
-Proxima Conhecendo o webpack  - 31
+Proxima Configurando o webpack  - 33
