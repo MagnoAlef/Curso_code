@@ -1,0 +1,7 @@
+Crie uma aplicação js que simule um funcionamento basico de blog utilizando classes e associações
+Você devera criar uma classe Post e uma classe Comment , onde uma instância de Post podera receber varios 
+Comentarios . As instâncias de Post tambem devem ter um metodo especifico para adição de comentarios nelas.
+Você tambem devera criar uma classe Author , e os objetos da classe Post tambem 
+devem possuir um objeto da classe Author , que e o autor do post . Alem disso , os objetos da classe Author tambem devem 
+possuir um array de posts (objetos das classe Post) e um metodo especifico para criação de posts, que devera criar uma 
+instância utilizando aquele proprio autor , incluir o post no array e então retornar o post criado.

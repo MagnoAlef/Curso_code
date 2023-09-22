@@ -28,6 +28,5 @@ class User {
 const usuario = new User('Magno', 'Magno.alefb@gmail.com' , '12345')
 console.log(usuario)
 
-console.log(usuario.login('Magno.alefb@gmail.com','12345'))
-
-console.log(usuario.login('Magno.alefb@gmail.','12345'))
+usuario.login('Magno.alefb@gmail.com','12345')
+usuario.login('Magno.alefb@gmail.','12345')
