@@ -1,15 +1,14 @@
 class Post {
-    constructor(comentarios , novoComentario){
-        this.comentarios = comentarios
-        this.novoComentario = novoComentario
+    constructor(title ,body,author){
+        this.title = title
+        this.body = body
+        this.author = author
+        this.comentario = []
     }
-    adicionarComentarios(comentarios){
-        this.novoComentario = comentarios
+    addComentario(username ,context){
+        this.comentario.push(new Comment(username ,context))   
+    }
 
-    }
 }
 
-const poster = new Post('nova postagem')
-poster.adicionarComentarios('com novo conteudo')
-
-console.log(poster)
+module.exports = Post
