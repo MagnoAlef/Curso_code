@@ -7,5 +7,6 @@ Todo atributo ou metodo que não for privado sera automaticamente publico
 Exemplos:
         Uma classe tem um atributo que e definido uma vez durante a construção mas depois
         não pode ser alterado diretamente (usando  obj.atributo = 'novo valor')
+        
         Uma classe possui um metodo principal que internamente chama varias 
         outros metodos da propria classe que não fazem sentido individualmente

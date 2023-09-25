@@ -17,4 +17,4 @@ Como usar POO no js
     Acessadores
     E muito mais...
 
-    Proxima aula -> 10  Resolução do Exercício 19 - Simulando um Blog com Classes
+    Proxima aula -> 13 
