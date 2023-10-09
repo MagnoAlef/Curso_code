@@ -1,16 +1,7 @@
 const Character = require("./Character");
 
-module.exports = class Mage extends Character {
-  constructor(name, lifepoints, attackPts, defensePts, magicPts) {
-    super(name, lifepoints, attackPts, defensePts)
-    this.magicPts = magicPts
-  }
-
+module.exports = class Thief extends Character {
   attack(targetCharacter) {
-    targetCharacter.lifepoints -= (this.attackPts + this.magicPts) - targetCharacter.defensePts
-  }
-
-  heal(targetCharacter) {
-    targetCharacter.lifepoints += this.magicPts * 2
+    targetCharacter.lifepoints -= (this.attackPts - targetCharacter.defensePts) * 2
   }
 }
