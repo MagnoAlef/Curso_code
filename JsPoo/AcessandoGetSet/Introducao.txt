@@ -1,0 +1,9 @@
+Os acessadores são um recurso para definir a forma como acessamos uma propriedade de um objeto 
+    Pessoa.nome
+    Pessoa.nome = "Magno"
+Com o acessador get podemos modificar a forma como uma propriedade e lida
+Com o acessador set podemos modificar a forma como uma propriedade e alterada via atribuição
+Tambem conhecidos como getters e setters
+Exemplos:
+    Uma classe possui uma propriedade que necessita de uma verificação antes de ter o seu valor modificado
+    Uma classe possui uma propriedade privada que necessita de um acessador publico somente na leitura    
