@@ -1,5 +1,5 @@
 class Wallet {
-    #amount
+    #amount // Atributo privado
     #username
   
     constructor() {
