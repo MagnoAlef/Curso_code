@@ -3,12 +3,12 @@ class Reservation {
       this.guests = guests
       this.room = room
       this.days = days
-      this.total = days * Reservation.baseFee
+      this.total = days * Reservation.baseFee // Modelo para acessa
     }
   
-    static baseFee = 150
+    static baseFee = 150 // static palavra reservada
   
-    static showBaseFee() {
+    static showBaseFee() { // metodo estatico
       console.log(`Base fee is ${Reservation.baseFee}`)
     }
   
