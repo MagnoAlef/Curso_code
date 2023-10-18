@@ -1,0 +1,6 @@
+São atributos e metodos definidos em uma classe que não dependem de uma instancia para serem utilizados
+São acessados diretamente pela classe ao inves de por uma instancia
+Exemplos:
+    Uma classe precisa definir um atributo que seja global ou seja que tenha o mesmo valor para todas as instancias
+    Uma classe de modelo para uma tabela no banco de dados onde os metodos devem estar 
+    disponiveis mesmo que nenhuma instancia tenha sido carregada ainda
