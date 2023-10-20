@@ -1,7 +1,16 @@
-module.exports = class Author {
-    constructor(name, nationality, bio) {
+module.exports = class Product {
+    constructor(name, description, price, inStock = 0) {
       this.name = name
-      this.nationality = nationality
-      this.bio = bio
+      this.description = description
+      this.price = price
+      this.inStock = inStock
+    }
+  
+    addToStock(quantity) {
+      this.inStock += quantity
+    }
+  
+    removeFromStock(quantity) {
+      this.inStock -= quantity
     }
   }
