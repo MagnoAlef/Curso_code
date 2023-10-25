@@ -1,4 +1,4 @@
-​Texto Complementar: ​
+​
     1.Você deverá construir uma aplicação em javascript que simula o funcionamento de um banco, com as funcionalidades
 de depósito, transferência e empréstimos em uma conta bancária. Para isso, crie as seguintes classes:
     2.Deposit: Deverá possuir um atributo para o valor e um atributo para a data de criação.
