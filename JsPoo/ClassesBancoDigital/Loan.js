@@ -1,7 +1,7 @@
 const Installment = require("./Installment")
 
 module.exports = class Loan {
-  static #fee = 1.05
+  static #fee = 1.05 // atributo estatico privado
 
   constructor(value, installments) {
     this.value = value
@@ -12,11 +12,11 @@ module.exports = class Loan {
     this.createdAt = new Date()
   }
 
-  static get fee() {
+  static get fee() { // ler o valor da taxa
     return Loan.#fee
   }
 
   static set fee(newFeePercentage) {
-    Loan.#fee = 1 + (newFeePercentage / 100)
+    Loan.#fee = 1 + (newFeePercentage / 100) 
   }
 }
