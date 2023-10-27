@@ -17,5 +17,6 @@ Como usar POO no js
     Acessadores
     E muito mais...
 
-    Proxima aula -> 26
+    Proxima aula -> 27
+    
     

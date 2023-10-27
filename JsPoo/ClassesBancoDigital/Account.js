@@ -1,5 +1,5 @@
 module.exports = class Account {
-    #balance
+    #balance  // atributo privado
     // #deposits
     // #loans
     // #transfers
@@ -12,7 +12,7 @@ module.exports = class Account {
       this.transfers = []
     }
   
-    get balance() {
+    get balance() { // devolver o balance
       return this.#balance
     }
   
@@ -22,7 +22,7 @@ module.exports = class Account {
     }
   
     addLoan(loan) {
-      this.#balance =+ loan.value
+      this.#balance += loan.value
       this.loans.push(loan)
     }
   
