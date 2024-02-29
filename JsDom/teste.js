@@ -62,16 +62,10 @@ const products =  [
     }
 ]
 
-function loadProduct(param) {
-    console.log('param', param);
-    const product = products.find(p => p.id === +param.productId);
-    return product;
-}
 
-const parametro = {
-    productId: 1
-};
+    const product = products.filter(f => f.price < 99);
 
-const resultado = loadProduct(parametro);
 
-console.log('teste', resultado);
+
+
+console.log('teste', product);
