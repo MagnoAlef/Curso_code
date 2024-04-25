@@ -40,7 +40,7 @@ const products = [
     id: 7,
     name: "Logitech G Pro X Mechanical Keyboard",
     descriptio: "Teclado mecânico para jogos com switches removíveis",
-    pric: 149.99,
+    price: 149.99,
   },
 ];
 
@@ -49,8 +49,15 @@ const testeSome = 7
 const productSome = products.some((x) => x.id === testeSome);
 const productInclues = produtosIncludes.includes('computador'); 
 
+const testeIncludes = products.map((x) => x.price).includes(179.99) // Peguei todos os valores dos precos e verifiquei se tinha uma valor do preco 
+
+console.log('mab' , products.map((x) => x.price))
+
 console.log("testeSome", productSome);
+
 console.log('testeIncludes' , productInclues)
+
+console.log('testesIncludesPrice' , testeIncludes)
 /**
  * 
 O método some e o método includes têm propósitos ligeiramente diferentes:
