@@ -44,11 +44,6 @@ const products = [
     },
   ];
 
-const testeFind = [1,2,3,4,5,6]
+  const productsCopy = products.slice();//Faz a copia exata do array
 
-console.log('testeFind' , testeFind.find((x) => x > 2))
-  
-
-const teste = products.find((x) => x.id === 1)
-
-  console.log('teste' , teste)
+  console.log('productsCopy' , productsCopy.reverse()) //reverse inverte a ordem do array
